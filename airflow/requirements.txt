@@ -1,0 +1,7 @@
+apache-airflow-providers-celery==3.6.1
+apache-airflow-providers-amazon==8.19.0
+apache-airflow-providers-postgres==5.10.2
+duckdb==0.10.1
+apache-airflow-providers-common-sql==1.11.1
+awscli==1.32.69
+psycopg[binary]==3.1.18

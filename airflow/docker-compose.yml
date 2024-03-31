@@ -1,0 +1,147 @@
+version: '3.9'
+services:
+  redis:
+      image: 'redis:5.0.5'
+      command: redis-server --requirepass redispass
+
+  postgres:
+      image: postgres:14.0
+      environment:
+          - POSTGRES_USER=airflow
+          - POSTGRES_PASSWORD=airflow
+          - POSTGRES_DB=airflow
+          - PGDATA=/var/lib/postgresql/data/pgdata
+      volumes:
+          - ./data/postgres:/var/lib/postgresql/data/pgdata
+      healthcheck:
+          test: [ "CMD", "pg_isready", "-U", "airflow" ]
+          interval: 5s
+          retries: 5
+      restart: always
+      logging:
+        options:
+          max-size: 10m
+          max-file: "3"
+
+  webserver:
+      image: parkpulse:${AIRFLOW_VERSION:-2.8.3}
+      build:
+         context: .
+      command: webserver
+      restart: always
+      depends_on:
+          - postgres
+          - redis
+      environment:
+          - LOAD_EX=n
+          - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+          - EXECUTOR=Celery
+          - POSTGRES_USER=airflow
+          - POSTGRES_PASSWORD=airflow
+          - POSTGRES_DB=airflow
+          - REDIS_PASSWORD=redispass
+          - PYTHONPATH=/usr/local/airflow/conf/
+      logging:
+        options:
+          max-size: 10m
+          max-file: "3"
+      volumes:
+          - ./park_pulse/dags:/usr/local/airflow/dags
+          - ./scripts/airflow.cfg:/usr/local/airflow/airflow.cfg
+          - ./park_pulse/plugins:/usr/local/airflow/plugins
+          - ./park_pulse/logs:/usr/local/airflow/logs
+          - ./park_pulse/conf:/usr/local/airflow/conf
+          - $HOME/.aws:/home/airflow/.aws
+      ports:
+          - "8080:8080"
+
+      healthcheck:
+          test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+          interval: 30s
+          timeout: 30s
+          retries: 3
+
+  flower:
+      image: parkpulse:${AIRFLOW_VERSION:-2.8.3}
+      build:
+         context: .
+      restart: always
+      depends_on:
+          - redis
+      environment:
+          - EXECUTOR=Celery
+          - REDIS_PASSWORD=redispass
+      ports:
+          - "5555:5555"
+      healthcheck:
+        test: ["CMD", "curl", "--fail", "http://localhost:5555/"]
+        interval: 10s
+        timeout: 10s
+        retries: 5
+
+  scheduler:
+      image: parkpulse:${AIRFLOW_VERSION:-2.8.3}
+      build:
+         context: .
+      restart: always
+      # user: "${AIRFLOW_UID:-50000}:0"
+      depends_on:
+        webserver:
+          condition: service_healthy
+      volumes:
+          - ./park_pulse/dags:/usr/local/airflow/dags
+         #  - ./scripts/entrypoint.sh:/usr/local/airflow/entrypoint.sh
+          - ./scripts/airflow.cfg:/usr/local/airflow/airflow.cfg
+          - ./requirements.txt:/usr/local/airflow/requirements.txt
+          - ./park_pulse/plugins:/usr/local/airflow/plugins
+          - ./park_pulse/logs:/usr/local/airflow/logs
+          - ./park_pulse/conf:/usr/local/airflow/conf
+          - $HOME/.aws:/home/airflow/.aws
+      environment:
+          - LOAD_EX=n
+          - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+          - EXECUTOR=Celery
+          - POSTGRES_USER=airflow
+          - POSTGRES_PASSWORD=airflow
+          - POSTGRES_DB=airflow
+          - REDIS_PASSWORD=redispass
+          - PYTHONPATH=/usr/local/airflow/conf/
+      command: scheduler 
+      healthcheck:
+          test: [ "CMD-SHELL", 'airflow jobs check --job-type SchedulerJob --hostname "$${HOSTNAME}"' ]
+          interval: 30s
+          timeout: 30s
+          retries: 5
+
+  worker:
+      image: parkpulse:${AIRFLOW_VERSION:-2.8.3}
+      build:
+         context: .
+      restart: always
+      depends_on:
+          - scheduler
+      volumes:
+          - ./park_pulse/dags:/usr/local/airflow/dags
+
+          - ./scripts/airflow.cfg:/usr/local/airflow/airflow.cfg
+          - ./requirements.txt:/usr/local/airflow/requirements.txt
+          - ./park_pulse/plugins:/usr/local/airflow/plugins
+          - ./park_pulse/logs:/usr/local/airflow/logs
+          - ./park_pulse/conf:/usr/local/airflow/conf
+          - $HOME/.aws:/home/airflow/.aws
+      environment:
+          - FERNET_KEY=46BKJoQYlPPOexq0OhDZnIlNepKFf87WFwLbfzqDDho=
+          - EXECUTOR=Celery
+          - POSTGRES_USER=airflow
+          - POSTGRES_PASSWORD=airflow
+          - POSTGRES_DB=airflow
+          - REDIS_PASSWORD=redispass
+          - PYTHONPATH=/usr/local/airflow/conf/
+      command: airflow celery worker
+      healthcheck:
+        test:
+          - "CMD-SHELL"
+          - 'celery --app airflow.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}"'
+        interval: 10s
+        timeout: 10s
+        retries: 5

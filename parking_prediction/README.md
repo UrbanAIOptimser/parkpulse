@@ -10,7 +10,7 @@
    At the moment, at the end of this file there is the merging of the 2024 traffic with the parking data, but the paking data we have now are until 2023, so now we can't merge them.
 
 ### 3) folder "weather" with the files:  
-      -- "weather.ipynb":  
+-- "weather.ipynb":  
       3 weather predictive models for temperature, humidity and cloud cover.  
       For the temperature it's ok (accuracy 99%), for the others not.  
       So the next step is to improve the 2 models to predict humidity and cloud cover.  

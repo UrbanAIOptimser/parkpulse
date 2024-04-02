@@ -1,10 +1,16 @@
 import streamlit as st
 import pandas as pd
+import subprocess
 import folium
 import streamlit.components.v1 as components
+from streamlit_folium import folium_static
 import joblib
 from datetime import datetime
 import os
+import cv2
+import pickle
+from PIL import Image
+import numpy as np
 
 # Load the weather prediction model
 model_path = 'weather_predictor_model.joblib'
@@ -72,28 +78,48 @@ def display_traffic_map():
     components.html(map_html, height=500)
 
 def display_parking_map(district_name, neighborhood_name):
+    # Filter data for the selected district and neighborhood
     filtered_data = parking_data[
-        (parking_data['Nom_Districte'] == district_name) & 
+        (parking_data['Nom_Districte'] == district_name) &
         (parking_data['Nom_Barri'] == neighborhood_name)
     ]
     
-    barcelona_map = folium.Map(location=[41.3851, 2.1734], zoom_start=13)
+    # Create the folium map
+    m = folium.Map(location=[41.3851, 2.1734], zoom_start=13)
+    for _, row in filtered_data.iterrows():
+        folium.Marker(
+            location=[row['Latitud'], row['Longitud']],
+            popup=f"ID Reserva: {row['ID_Reserva']}<br>Location: {row['Nom_Barri']}",
+            tooltip=row['Codi_Reserva']
+        ).add_to(m)
+    
+    # Display the map in the Streamlit app
+    folium_static(m)
 
+def create_clickable_map(filtered_data):
+    # Create a folium map instance
+    m = folium.Map(location=[41.3851, 2.1734], zoom_start=13)
+
+    # Use the same image and video for all pins
+    image_path = "static/parking/parking.png"
+    video_path = "static/output.mp4"
+
+    # Iterate over the rows of the dataframe and create a marker for each parking spot
     for _, row in filtered_data.iterrows():
         popup_html = f"""
             <b>ID Reserva:</b> {row['ID_Reserva']}<br>
             <b>Location:</b> {row['Nom_Barri']}<br>
-            <a href='#' target='_blank'>View Satellite Image</a><br>
-            <a href='#' target='_blank'>View Video</a>
+            <a href="#" onclick="window.open('{image_path}'); return false;">View Satellite Image</a><br>
+            <a href="#" onclick="window.open('{video_path}'); return false;">View Video</a>
         """
         folium.Marker(
             location=[row['Latitud'], row['Longitud']],
             popup=folium.Popup(popup_html, max_width=450),
             tooltip=row['Codi_Reserva']
-        ).add_to(barcelona_map)
+        ).add_to(m)
 
-    map_html = barcelona_map._repr_html_()
-    components.html(map_html, height=500)
+    # Display the map in the Streamlit app
+    folium_static(m)
 
 def predict_weather():
     features = [20, 10, 19, 11, 5, 70, 0.5, 0.2, 0, 0, 25, 10, 150, 1015, 50, 10, 200, 5, 5, 1000]
@@ -109,25 +135,44 @@ def predict_weather():
         'cloudcover': cloudcover
     }
 
-# Function to display a specific satellite image
-def display_satellite_image():
-    # Specify the path to your image file
+def display_satellite_image(id_reserva):
     image_path = "/Users/joaquintejo/Desktop/BTS/FINAL_PROJECT/CHECKPOINT3/ParkPulse_Dashboard/DinamicMap/static/parking/parking.png"
     if os.path.exists(image_path):
         st.image(image_path, caption="Satellite Image")
     else:
         st.error("Satellite image not found.")
 
-# Function to display a video
-def display_video():
-    # Specify the path to your video file
-    video_path = "/Users/joaquintejo/Desktop/BTS/FINAL_PROJECT/CHECKPOINT3/ParkPulse_Dashboard/DinamicMap/static/output.mp4"
-    if os.path.exists(video_path):
-        st.video(video_path)
-    else:
-        st.error("Video not found.")
+def display_video(id_reserva):
+    try:
+        result = subprocess.run(['python', 'test.py'], capture_output=True, text=True, check=True)
+        video_path = "/Users/joaquintejo/Desktop/BTS/FINAL_PROJECT/CHECKPOINT3/ParkPulse_Dashboard/DinamicMap/static/output.mp4"
+        if os.path.exists(video_path):
+            st.video(video_path)
+        else:
+            st.error("Video not found.")
+    except subprocess.CalledProcessError as e:
+        st.error(f"Error generating video: {e}")
 
 def main():
+    # Conditionally render sidebar buttons based on the current view
+    if 'view' not in st.session_state or st.session_state['view'] == 'main':
+        if st.sidebar.button("Go to Developers Section"):
+            st.session_state['view'] = 'developers'
+            st.experimental_rerun()
+    elif st.session_state['view'] == 'developers':
+        if st.sidebar.button("Back to Main App"):
+            st.session_state['view'] = 'main'
+            st.experimental_rerun()
+
+    # Use session state to toggle between views
+    if st.session_state.get('view') == 'developers':
+        developers_view()
+    else:
+        parkpulse_view()
+
+    # Event handling for displaying images and videos moved to parkpulse_view
+
+def parkpulse_view():
     st.title("ParkPulse 1.5")
 
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -152,12 +197,48 @@ def main():
         st.write("🌡️ Predicted temperature for today is:", weather_info['predicted_temperature'], "°C")
         st.write("💧 Humidity:", weather_info['humidity'], "%")
         st.write("☁️ Cloud Cover:", weather_info['cloudcover'], "%")
-        
-    if st.button("Show Satellite Image"):
-        display_satellite_image()
-    
-    if st.button("Show Video"):
-        display_video()
+
+def developers_view():
+    st.title('Parking Space Picker')
+
+    width, height = 40, 23
+
+    try:
+        with open('park_positions.pkl', 'rb') as f:
+            park_positions = pickle.load(f)
+    except FileNotFoundError:
+        park_positions = []
+        with open('park_positions.pkl', 'wb') as f:
+            pickle.dump(park_positions, f)
+
+    img_path = '/Users/joaquintejo/Desktop/BTS/FINAL_PROJECT/CHECKPOINT3/ParkPulse_Dashboard/Parking_space_counter/input/parking.png'
+    if os.path.exists(img_path):
+        img = cv2.imread(img_path)
+        for position in park_positions:
+            top_left = (position[0], position[1])
+            bottom_right = (position[0] + width, position[1] + height)
+            cv2.rectangle(img, top_left, bottom_right, (255, 0, 255), 3)
+        st.image(img, use_column_width=True)
+    else:
+        st.error("Parking lot image not found.")
+
+    with st.form(key='parking_space_form'):
+        st.write("Add a parking space")
+        x = st.number_input('Enter X coordinate', min_value=0, max_value=1000) # Adjust max_value according to your image dimensions
+        y = st.number_input('Enter Y coordinate', min_value=0, max_value=1000) # Adjust max_value accordingly
+        submit_button = st.form_submit_button(label='Add Parking Space')
+        if submit_button:
+            park_positions.append((int(x), int(y)))
+            with open('park_positions.pkl', 'wb') as f:
+                pickle.dump(park_positions, f)
+            st.experimental_rerun()
+
+    remove_slot = st.selectbox('Remove a parking space', [''] + [f'{p[0]}, {p[1]}' for p in park_positions])
+    if st.button('Remove Selected Parking Space') and remove_slot:
+        park_positions.remove(tuple(map(int, remove_slot.split(', '))))
+        with open('park_positions.pkl', 'wb') as f:
+            pickle.dump(park_positions, f)
+        st.experimental_rerun()
 
 if __name__ == '__main__':
     main()

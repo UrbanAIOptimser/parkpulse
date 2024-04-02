@@ -2,7 +2,7 @@
 
 ### 1) "weather_parking_traffic.ipynb":  
 It's the merging of parking, weather and traffic (tom-tom so only from december 2019 to november 2020) + parking predictive model (with accuracy 90%).  
-So the next step here is to replace the tom-tom with the new traffic data you found (from 2021 to 2024) and repeat the parking model with these new data.
+So the next step here is to replace the tom-tom with the new traffic data (from 2021 to 2024) and repeat the parking model with these new data.
 
 ### 2) "2024_traffic.ipynb":  
 It's an analysis of the traffic in the first 3 months of the year 2024 + traffic prediction model (it's classification because the current traffic status is categorical) with an accuracy of 79%.  

@@ -19,4 +19,3 @@ It's an analysis to show that the weather and the data traffic are not correlate
 As in 1), here the traffic data are from tom-tom (not really useful), so the next step is to replace them with the new traffic data (from 2021 to 2024).    
 After having replaced the old traffic data with the new ones, to predict the weather we continue to use only the weather data (because they don't depend on the traffic), instead to predict the traffic we will use both the traffic and the weather data (because the traffic depends also on the weather, for example if it rains).  
 
-### 4) folder "traffic" now empty.

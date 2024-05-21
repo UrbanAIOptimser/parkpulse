@@ -1,6 +1,7 @@
 # Explanation to join the parking, weather and traffic data:
-#### (So the file "df_traffic_parking_weather_weather.csv")
-Merging Weather and Traffic:
+(So the file "df_traffic_parking_weather_weather.csv")
+
+#### Merging Weather and Traffic:
     # Step 1: Find all the unique combinations of dates between the two dataframes
     # Step 2: Loop through each unique date
     # Step 3: Calculate the distance between coordinates using haversine
@@ -49,7 +50,7 @@ def create_join_by_date_distance_coordinate(df_weather, df_traffic):
     return results
 
 
-Merging Weather and Traffic with Parking:
+#### Merging Weather and Traffic with Parking:
 	# Step 1: Calculate midpoints of parking segments
 	# Step 2: Loop through the Parking data and the weather_traffic data 
 	# Step 3: Calculate the distance between coordinates using haversine

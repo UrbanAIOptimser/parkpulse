@@ -26,7 +26,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 ——————————join by nearest neighbourhood——————————————————————
-def create_join_by_date_distance_coordinate(df_weather, df_traffic):
+def create_join_by_date_distance_coordinate(df_weather, df_traffic):  
     results = []
     
     

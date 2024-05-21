@@ -1,4 +1,4 @@
-# Explanation to join the parking, weather and traffic data:
+# How we join parking, weather and traffic data:
 (So the file "df_traffic_parking_weather_weather.csv")
 
 #### Merging Weather and Traffic:

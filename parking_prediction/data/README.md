@@ -61,12 +61,12 @@ def midpoint(lat1, lon1, lat2, lon2):
     return (lat1 + lat2) / 2, (lon1 + lon2) / 2
 
 ————————————Join by the nearest neighbour———————————————————  
-def find_nearest_weather(df_parking, weather_df):  
-    results = []  
-    for index_A, row_A in weather_df.iterrows():
-        distances = [haversine(row_A['latitude'], row_A['longitude'], row_B['mid_latitude'], \
-                               row_B['mid_longitude']) for index_B, row_B in df_parking.iterrows()]
-        nearest_index = distances.index(min(distances))
-        merged_row = {**row_A, **df_parking.iloc[nearest_index]}
-        results.append(merged_row)
+def find_nearest_weather(df_parking, weather_df):    
+    results = []    
+    for index_A, row_A in weather_df.iterrows():  
+        distances = [haversine(row_A['latitude'], row_A['longitude'], row_B['mid_latitude'], \  
+                               row_B['mid_longitude']) for index_B, row_B in df_parking.iterrows()]  
+        nearest_index = distances.index(min(distances))  
+        merged_row = {**row_A, **df_parking.iloc[nearest_index]}  
+        results.append(merged_row)  
     return results

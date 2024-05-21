@@ -57,8 +57,8 @@ def create_join_by_date_distance_coordinate(df_weather, df_traffic):
  	# Step 4: Join by the nearest neighbourhood.
 
 ————————————————Midpoint—————————————————————————  
-def midpoint(lat1, lon1, lat2, lon2):  
-    return (lat1 + lat2) / 2, (lon1 + lon2) / 2
+	def midpoint(lat1, lon1, lat2, lon2):  
+    		return (lat1 + lat2) / 2, (lon1 + lon2) / 2
 
 ————————————Join by the nearest neighbour———————————————————  
 def find_nearest_weather(df_parking, weather_df):    

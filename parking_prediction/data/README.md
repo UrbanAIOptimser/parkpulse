@@ -56,13 +56,13 @@ def create_join_by_date_distance_coordinate(df_weather, df_traffic):
 	# Step 3: Calculate the distance between coordinates using haversine
  	# Step 4: Join by the nearest neighbourhood.
 
-————————————————Midpoint—————————————————————————
-def midpoint(lat1, lon1, lat2, lon2):
+————————————————Midpoint—————————————————————————  
+def midpoint(lat1, lon1, lat2, lon2):  
     return (lat1 + lat2) / 2, (lon1 + lon2) / 2
 
-————————————Join by the nearest neighbour———————————————————
-def find_nearest_weather(df_parking, weather_df):
-    results = []
+————————————Join by the nearest neighbour———————————————————  
+def find_nearest_weather(df_parking, weather_df):  
+    results = []  
     for index_A, row_A in weather_df.iterrows():
         distances = [haversine(row_A['latitude'], row_A['longitude'], row_B['mid_latitude'], \
                                row_B['mid_longitude']) for index_B, row_B in df_parking.iterrows()]

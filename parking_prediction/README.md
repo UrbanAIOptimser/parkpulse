@@ -10,6 +10,8 @@ Merge and analysis of the new parking data.
 
 #### 4) file "LAST_MERGING_MODEL.ipynb"
 
+
+
 ### 5) folder "traffic" with the files:
 #### -- "2024_traffic.ipynb":  
 It's an analysis of the traffic in the first 3 months of the year 2024 + traffic prediction model (it's classification because the current traffic status is categorical) with an accuracy of 79%.  

@@ -49,4 +49,4 @@ RUN chmod +x ${AIRFLOW_USER_HOME}/entrypoint.sh
 
 ENTRYPOINT ["./entrypoint.sh"]
 
-CMD ["webserver"]
+# CMD ["webserver"]

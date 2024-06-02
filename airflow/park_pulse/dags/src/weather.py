@@ -9,7 +9,7 @@ class OpenWeather:
     def __str__(self) -> str:
         pass
 
-    def get_weather():
+    def get_weather(self):
         url = f"http://api.openweathermap.org/data/2.5/weather?q={self.q}&APPID={self.api_key}"
         payload = {}
         headers = {}
@@ -17,7 +17,7 @@ class OpenWeather:
         data = response.json()
         return data
 
-    def get_weather_data(df):
+    def get_weather_data(df: pd.DataFrame) -> pd.DataFrame:
         result = []
         for i in df.index:
             row = df.iloc[i]

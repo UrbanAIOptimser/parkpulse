@@ -162,3 +162,10 @@ cython_debug/
 # data
 airflow/park_pulse/logs/*
 airflow/data/postgres/*
+
+
+.terraform/
+
+terraform.tfstate
+
+terraform.tfstate.backup

@@ -18,6 +18,7 @@ conn = duckdb.connect()
 config = configparser.ConfigParser()
 config.read("./src/credentials.cfg")
 
+
 class HELPER:
 
     def __init__(self, BASE_URL, s3_bucket, s3_raw_key, s3_processed_key):
@@ -26,27 +27,26 @@ class HELPER:
         self.s3_key = s3_raw_key
         self.s3_processed_key = s3_processed_key
 
-    def aicraft_db_parser(self, data:str) -> list[dict]:
+    def aicraft_db_parser(self, data: str) -> list[dict]:
         dict_list = []
-        json_objects = data.strip().split('\n')
+        json_objects = data.strip().split("\n")
         for obj in json_objects:
             try:
                 dict_data = json.loads(obj)
                 dict_list.append(dict_data)
             except json.JSONDecodeError as e:
-                print('Error decoding JSON:', e)
+                print("Error decoding JSON:", e)
         return dict_list
 
-    def fuel_consumption_parser(self, data:str) -> list[dict]:
+    def fuel_consumption_parser(self, data: str) -> list[dict]:
         dict_list = []
         for key, value in data.items():
             try:
-                value['type'] = key
+                value["type"] = key
                 dict_list.append(value)
             except json.JSONDecodeError as e:
-                print('Error decoding JSON:', e)
+                print("Error decoding JSON:", e)
         return dict_list
-
 
     def fetch_data(self, link: str) -> str:
         """
@@ -92,7 +92,7 @@ class HELPER:
         else:
             LOG.error(f"error {r.status_code}, {r.content}")
 
-    def upload_file_s3(self, link: str, git:bool = False) -> None:
+    def upload_file_s3(self, link: str, git: bool = False) -> None:
         """
 
         Parameters
@@ -106,21 +106,23 @@ class HELPER:
             DESCRIPTION.
 
         """
-        
+
         try:
-            session = boto3.Session(profile_name="bdi")
+            session = boto3.Session(profile_name="bts")
             s3 = session.client("s3")
             data = self.fetch_data(link)
-            link = link.split('.')[0]
+            link = link.split(".")[0]
             if git and isinstance(data, dict):
                 data = self.fuel_consumption_parser(data)
             if isinstance(data, str):
                 data = self.aicraft_db_parser(data)
-            n=25000
+            n = 25000
             if len(data) >= n:
                 for i in range(0, len(data), n):
                     key = f"{self.s3_key}/{link}-{i}.json.gz"
-                    compressed_data = gzip.compress(json.dumps(data[i:i+n]).encode("utf-8"))
+                    compressed_data = gzip.compress(
+                        json.dumps(data[i : i + n]).encode("utf-8")
+                    )
                     s3.put_object(Body=compressed_data, Bucket=self.s3_bucket, Key=key)
             else:
                 key = f"{self.s3_key}/{link}.json.gz"
@@ -147,7 +149,7 @@ class HELPER:
 
         """
         try:
-            session = boto3.Session(profile_name="bdi")
+            session = boto3.Session(profile_name="bts")
             s3 = session.client("s3")
             response = s3.list_objects_v2(Bucket=self.s3_bucket, Prefix=prefix)
             files = response.get("Contents", list())
@@ -161,19 +163,19 @@ class HELPER:
 
     def get_conn(self, default_db: str, dbname=None) -> tuple:
         """
-   
+
         Parameters
         ----------
         default_db : str
             DESCRIPTION.
         dbname : TYPE, optional
             DESCRIPTION. The default is None.
-   
+
         Returns
         -------
         tuple
             DESCRIPTION.
-   
+
         """
         if dbname is None:
             conn = psycopg.connect(default_db)
@@ -184,140 +186,142 @@ class HELPER:
         return conn, cur
 
     def check_db(self, default_db: str, dbname: str) -> set:
-         """
+        """
 
-         Parameters
-         ----------
-         default_db : str
-             DESCRIPTION.
-         dbname : str
-             DESCRIPTION.
+        Parameters
+        ----------
+        default_db : str
+            DESCRIPTION.
+        dbname : str
+            DESCRIPTION.
 
-         Returns
-         -------
-         set
-             DESCRIPTION.
+        Returns
+        -------
+        set
+            DESCRIPTION.
 
-         """
-         conn, cur = self.get_conn(default_db)
-         try:
-             pg_db = cur.execute("""SELECT * FROM pg_database""").fetchall()
-             db = {row for row in pg_db if dbname in row}
-             conn.commit()
-         except BaseException:
-             conn.rollback()
-         return db
+        """
+        conn, cur = self.get_conn(default_db)
+        try:
+            pg_db = cur.execute("""SELECT * FROM pg_database""").fetchall()
+            db = {row for row in pg_db if dbname in row}
+            conn.commit()
+        except BaseException:
+            conn.rollback()
+        return db
 
     def create_db(self, default_db: str, dbname: str) -> None:
-         """
+        """
 
-         Parameters
-         ----------
-         default_db : str
-             DESCRIPTION.
-         dbname : str
-             DESCRIPTION.
+        Parameters
+        ----------
+        default_db : str
+            DESCRIPTION.
+        dbname : str
+            DESCRIPTION.
 
-         Returns
-         -------
-         None
-             DESCRIPTION.
+        Returns
+        -------
+        None
+            DESCRIPTION.
 
-         """
-         conn, cur = self.get_conn(default_db)
-         db = self.check_db(default_db, dbname)
-         if len(db) < 1:
-             try:
-                 cur.execute(f"""CREATE DATABASE {dbname};""")
-                 conn.commit()
-                 LOG.info(f"Database Successfully Created: {dbname}")
-             except BaseException:
-                 conn.rollback()
-                 LOG.info(f"Problem Creating Database: {dbname}")
+        """
+        conn, cur = self.get_conn(default_db)
+        db = self.check_db(default_db, dbname)
+        if len(db) < 1:
+            try:
+                cur.execute(f"""CREATE DATABASE {dbname};""")
+                conn.commit()
+                LOG.info(f"Database Successfully Created: {dbname}")
+            except BaseException:
+                conn.rollback()
+                LOG.info(f"Problem Creating Database: {dbname}")
 
     def create_schema(self, default_db: str, dbname: str, schema_name: str) -> set:
-         """
+        """
 
-         Parameters
-         ----------
-         default_db : str
-             DESCRIPTION.
-         dbname : str
-             DESCRIPTION.
-         schema_name : str
-             DESCRIPTION.
+        Parameters
+        ----------
+        default_db : str
+            DESCRIPTION.
+        dbname : str
+            DESCRIPTION.
+        schema_name : str
+            DESCRIPTION.
 
-         Returns
-         -------
-         set
-             DESCRIPTION.
+        Returns
+        -------
+        set
+            DESCRIPTION.
 
-         """
-         conn, cur = self.get_conn(default_db, dbname)
-         try:
-             cur.execute(f"""CREATE SCHEMA IF NOT EXISTS {schema_name};""")
-             conn.commit()
-         except BaseException:
-             conn.rollback()
+        """
+        conn, cur = self.get_conn(default_db, dbname)
+        try:
+            cur.execute(f"""CREATE SCHEMA IF NOT EXISTS {schema_name};""")
+            conn.commit()
+        except BaseException:
+            conn.rollback()
 
     def create_tables(
-         self, default_db: str, dbname: str, schema_name: str, tablename: str, sql_query: str
-     ) -> None:
-         """
+        self,
+        default_db: str,
+        dbname: str,
+        schema_name: str,
+        tablename: str,
+        sql_query: str,
+    ) -> None:
+        """
 
-         Parameters
-         ----------
-         default_db : str
-             DESCRIPTION.
-         dbname : str
-             DESCRIPTION.
-         schema_name : str
-             DESCRIPTION.
-         tablename : str
-             DESCRIPTION.
+        Parameters
+        ----------
+        default_db : str
+            DESCRIPTION.
+        dbname : str
+            DESCRIPTION.
+        schema_name : str
+            DESCRIPTION.
+        tablename : str
+            DESCRIPTION.
 
-         Returns
-         -------
-         None
-             DESCRIPTION.
+        Returns
+        -------
+        None
+            DESCRIPTION.
 
-         """
-         conn, cur = self.get_conn(default_db, dbname)
-         try:
-             cur.execute( sql_query
-             )
-             conn.commit()
-         except BaseException:
-             conn.rollback()
-
+        """
+        conn, cur = self.get_conn(default_db, dbname)
+        try:
+            cur.execute(sql_query)
+            conn.commit()
+        except BaseException:
+            conn.rollback()
 
     def get_postgres_data(self, query: str) -> list[tuple]:
-         """
+        """
 
-         Parameters
-         ----------
-         query : str
-             DESCRIPTION.
+        Parameters
+        ----------
+        query : str
+            DESCRIPTION.
 
-         Returns
-         -------
-         list[tuple]
-             DESCRIPTION.
+        Returns
+        -------
+        list[tuple]
+            DESCRIPTION.
 
-         """
-         try:
-             conn = self._duckdb()
-             cursor = conn.execute(query)
-             result = cursor.fetchall()
-             conn.commit()
-         except Exception as e:
-             LOG.error("problem getting postgres data", e)
-         return result
+        """
+        try:
+            conn = self._duckdb()
+            cursor = conn.execute(query)
+            result = cursor.fetchall()
+            conn.commit()
+        except Exception as e:
+            LOG.error("problem getting postgres data", e)
+        return result
 
     def _duckdb(self):
-         """ """
-         return duckdb.connect()
-
+        """ """
+        return duckdb.connect()
 
     def read_parquet(self, _file_dir: str) -> None:
         """
@@ -350,36 +354,35 @@ class HELPER:
             LOG.error("export_parquet", e)
         return records
 
-
     def copy_data(
-            self, default_db: str, dbname: str, schema_name: str, tablename: str
-        ) -> None:
-            """
-    
-            Parameters
-            ----------
-            default_db : str
-                DESCRIPTION.
-            dbname : str
-                DESCRIPTION.
-            schema_name : str
-                DESCRIPTION.
-            tablename : str
-                DESCRIPTION.
-    
-            Returns
-            -------
-            None
-                DESCRIPTION.
-    
-            """
-            conn, cur = self.get_conn(default_db, dbname)
-            filename_prepared = self.get_file_downloaded(
-                prefix="prepared/day=20231101",
-                full_path=True,
-            )
-            cur.execute(
-                f"""
+        self, default_db: str, dbname: str, schema_name: str, tablename: str
+    ) -> None:
+        """
+
+        Parameters
+        ----------
+        default_db : str
+            DESCRIPTION.
+        dbname : str
+            DESCRIPTION.
+        schema_name : str
+            DESCRIPTION.
+        tablename : str
+            DESCRIPTION.
+
+        Returns
+        -------
+        None
+            DESCRIPTION.
+
+        """
+        conn, cur = self.get_conn(default_db, dbname)
+        filename_prepared = self.get_file_downloaded(
+            prefix="prepared/day=20231101",
+            full_path=True,
+        )
+        cur.execute(
+            f"""
                     CREATE TEMP TABLE temp_{tablename} (
                         timestamp VARCHAR(20),
                         icao VARCHAR(7) NOT NULL,
@@ -394,30 +397,30 @@ class HELPER:
                         UNIQUE (icao, timestamp)
                     );
                     """
-            )
-            try:
-                total = 0
-                for file in filename_prepared:
-                    LOG.info(file)
-                    records = self.read_parquet(file)
-                    LOG.info(f"record pushing to table {tablename} is : {len(records)}")
-                    total += len(records)
-                    with cur.copy(
-                        f"COPY temp_{tablename} (timestamp, icao, type, registration, \
+        )
+        try:
+            total = 0
+            for file in filename_prepared:
+                LOG.info(file)
+                records = self.read_parquet(file)
+                LOG.info(f"record pushing to table {tablename} is : {len(records)}")
+                total += len(records)
+                with cur.copy(
+                    f"COPY temp_{tablename} (timestamp, icao, type, registration, \
                                                  altitude_baro, ground_speed, \
                                                  latitude, longitude, emergency, \
                                                  day) FROM STDIN"
-                    ) as copy:
-                        for record in records:
-                            copy.write_row(record)
-                conn.commit()
-            except BaseException:
-                conn.rollback()
-    
-            # Merge the data into Prod
-            try:
-                cur.execute(
-                    f"""
+                ) as copy:
+                    for record in records:
+                        copy.write_row(record)
+            conn.commit()
+        except BaseException:
+            conn.rollback()
+
+        # Merge the data into Prod
+        try:
+            cur.execute(
+                f"""
                     INSERT INTO {dbname}.{schema_name}.{tablename} (
                         timestamp, icao, type, registration,
                         altitude_baro, ground_speed, latitude,
@@ -438,8 +441,8 @@ class HELPER:
                         day = EXCLUDED.day,
                         _fast_api_sync = current_timestamp
                 """
-                )
-                LOG.info("Successfully Merge")
-                conn.commit()
-            except BaseException:
-                conn.rollback()
+            )
+            LOG.info("Successfully Merge")
+            conn.commit()
+        except BaseException:
+            conn.rollback()

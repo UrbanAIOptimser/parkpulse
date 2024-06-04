@@ -169,3 +169,12 @@ airflow/data/postgres/*
 terraform.tfstate
 
 terraform.tfstate.backup
+
+mlruns
+
+models/
+
+scales
+scales_pickle
+mlflow.db
+park.mp4

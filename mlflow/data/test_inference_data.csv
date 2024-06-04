@@ -1,0 +1,1038 @@
+icon,moon_phase,neighbourhood_bcn,weighted_occupancy
+clear-day,0.85,UNKNOWN,2.554065821872313
+partly-cloudy-day,0.56,Can Peguera,3.1131424409427586
+partly-cloudy-day,0.69,Can Peguera,3.1603057922649467
+partly-cloudy-day,0.63,Sarrià,3.8857115665021795
+rain,0.8,el Bon Pastor,3.7799880920075064
+rain,0.7,el Camp de l'Arpa del Clot,3.164496462158702
+clear-day,0.9,els Indians,1.2211943247208912
+partly-cloudy-day,0.17,el Clot,3.505581764622141
+rain,0.97,la Torre Llobeta,5.802045529309985
+clear-day,0.9,el Clot,1.2748299672380778
+partly-cloudy-day,0.63,la Sagrada Família,3.9747903892867114
+rain,0.88,Sarrià,4.11242565298056
+rain,0.6,el Putxet,3.810184927561216
+partly-cloudy-day,0.35,Can Peguera,3.433571676521855
+clear-day,0.85,la Bordeta,2.457650051262994
+rain,0.87,Pedralbes,2.4849669924784057
+partly-cloudy-day,0.19,Sant Genís dels Agudells,5.618937314078183
+partly-cloudy-day,0.29,Sarrià,3.8795659943189746
+partly-cloudy-day,0.74,el Poblenou,3.9324925136718
+partly-cloudy-day,0.17,Pedralbes,3.0848064670383133
+rain,0.6,el Parc i la Llacuna del Poblenou,3.556671853025047
+partly-cloudy-day,0.57,els Indians,3.6717922312690483
+rain,0.07,el Putxet,2.209559624136928
+partly-cloudy-day,0.67,el Carmel,3.0139792364563434
+partly-cloudy-day,0.0,la Sagrada Família,5.162535833168187
+rain,0.46,el Bon Pastor,3.6293080797119237
+partly-cloudy-day,0.12,les Tres Torres,3.3246724390669815
+partly-cloudy-day,0.57,la Ribera,3.6625849878262904
+partly-cloudy-day,0.74,la Trinitat Nova,4.046238823495749
+partly-cloudy-day,0.04,Can Baró,3.4274156280125916
+partly-cloudy-day,0.42,la Guineueta,2.503094985434763
+partly-cloudy-day,0.68,Sant Gervasi,3.793798881622461
+rain,0.94,el Parc i la Llacuna del Poblenou,4.743741277331088
+partly-cloudy-day,0.59,Provençals del Poblenou,4.553918085892684
+clear-day,0.82,la Nova Esquerra de l'Eixample,2.402379330610219
+partly-cloudy-day,0.73,la Torre Llobeta,3.3799403272141557
+partly-cloudy-day,0.92,Sarrià,3.038744146734035
+clear-day,0.82,Provençals del Poblenou,2.1148164788358077
+partly-cloudy-day,0.36,les Tres Torres,4.995380087397311
+partly-cloudy-day,0.15,les Roquetes,3.099492043020173
+clear-day,0.45,UNKNOWN,2.14907252957057
+partly-cloudy-day,0.83,Sant Gervasi,3.054173248665496
+partly-cloudy-day,0.57,la Sagrera,3.8919502534065136
+clear-day,0.09,la Teixonera,2.2839207647329447
+partly-cloudy-day,0.15,Sants-Badal,3.3548887863275763
+partly-cloudy-day,0.39,la Bordeta,3.3430705538228467
+rain,0.97,Sarrià,5.724816066706536
+partly-cloudy-day,0.1,la Sagrada Família,4.380358901009021
+partly-cloudy-day,0.95,la Font de la Guatlla,5.067418090779362
+rain,0.46,la Dreta de l'Eixample,3.749422027396941
+partly-cloudy-day,0.42,les Roquetes,2.792378139556627
+rain,0.0,Can Baró,5.641472944478769
+partly-cloudy-day,0.75,la Clota,3.7727434591846603
+partly-cloudy-day,0.21,Sants,3.771482759867229
+partly-cloudy-day,0.38,els Penitents,2.9435391748300646
+rain,0.26,Sarrià,3.9000929549209467
+rain,0.72,Sarrià,4.290971292723529
+partly-cloudy-day,0.0,la Font d'en Fargues,5.439966425005839
+clear-day,0.9,Sant Genís dels Agudells,1.4892505964982437
+partly-cloudy-day,0.63,el Guinardó,3.895446935353756
+partly-cloudy-day,0.42,el Raval,2.7004768265009957
+rain,0.75,la Vall d'Hebron,4.558984066770358
+rain,0.31,els Penitents,4.929185869548707
+partly-cloudy-day,0.95,Sant Andreu de Palomar,4.933921392346948
+rain,0.0,la Sagrada Família,5.3738719604789225
+partly-cloudy-day,0.75,la Bordeta,3.0450673189613258
+rain,0.26,el Raval,3.8455630907976133
+partly-cloudy-day,0.75,Montbau,2.879576636085498
+rain,0.7,el Clot,3.466607573269813
+clear-day,0.82,el Camp d'en Grassot i Gràcia Nova,2.3171095955351566
+partly-cloudy-day,0.04,el Besòs i el Maresme,3.1327740509516597
+rain,0.31,la Torre Llobeta,4.902288195535146
+rain,0.07,la Ribera,2.1244799707352895
+rain,0.03,el Parc i la Llacuna del Poblenou,2.7954736302854255
+partly-cloudy-day,0.12,Galvany,3.619314016127914
+partly-cloudy-day,0.39,la Nova Esquerra de l'Eixample,3.589744546970432
+rain,0.53,Can Peguera,4.439418245180648
+rain,0.28,les Roquetes,5.41862343102681
+partly-cloudy-day,0.65,la Marina del Prat Vermell,5.272913505487973
+partly-cloudy-day,0.1,la Font d'en Fargues,4.123913696715953
+partly-cloudy-day,0.25,el Camp de l'Arpa del Clot,5.223636568630533
+partly-cloudy-day,0.04,el Raval,3.5899747170467613
+clear-day,0.9,Sarrià,1.5461621539100294
+cloudy,0.75,la Trinitat Nova,5.806831746812268
+partly-cloudy-day,0.52,el Coll,4.40343436800153
+partly-cloudy-day,0.0,la Guineueta,5.123581520523863
+rain,0.46,la Maternitat i Sant Ramon,3.5115936278515076
+clear-day,0.9,la Bordeta,1.5624789175271636
+clear-day,0.45,Sarrià,2.1983993670400914
+partly-cloudy-day,0.21,Montbau,3.521973721813449
+rain,0.7,el Parc i la Llacuna del Poblenou,3.1960401691920186
+partly-cloudy-day,0.92,la Ribera,2.740086672551873
+partly-cloudy-day,0.38,Hostafrancs,3.016113539141271
+partly-cloudy-day,0.93,el Poblenou,2.856761375739316
+partly-cloudy-day,0.38,el Putxet,2.8361997489308486
+rain,0.36,el Besòs i el Maresme,5.256817315034323
+partly-cloudy-day,0.56,la Sagrada Família,3.625245344676073
+partly-cloudy-day,0.12,UNKNOWN,3.5232078811833674
+partly-cloudy-day,0.21,la Trinitat Nova,3.7956980521946417
+rain,0.8,la Maternitat i Sant Ramon,5.672076649844728
+rain,0.28,el Besòs i el Maresme,5.1641844695737324
+partly-cloudy-day,0.21,el Bon Pastor,3.8007982525954436
+partly-cloudy-day,0.43,el Poblenou,3.363970335641611
+rain,0.53,la Ribera,4.563581792064062
+partly-cloudy-day,0.21,Sant Martí de Provençals,3.904661231505847
+rain,0.8,el Coll,3.5598051812891907
+rain,0.02,la Sagrera,5.310125355976656
+rain,0.0,Hostafrancs,5.553268673742101
+rain,0.46,Sarrià,3.597944249619163
+rain,0.05,la Maternitat i Sant Ramon,2.7310079667531784
+rain,0.09,Sarrià,5.073448197882338
+partly-cloudy-day,0.29,la Dreta de l'Eixample,3.872980709053102
+partly-cloudy-day,0.15,Sarrià,3.1191540193024867
+partly-cloudy-day,0.25,Pedralbes,2.978741400186824
+partly-cloudy-day,0.39,Sarrià,3.513900545082174
+partly-cloudy-day,0.83,les Tres Torres,2.7868916445029437
+rain,0.02,UNKNOWN,5.350100930046237
+rain,0.84,Can Peguera,4.344982637894628
+partly-cloudy-day,0.14,les Tres Torres,4.049778389848621
+clear-day,0.87,la Trinitat Nova,2.1356701392679014
+clear-day,0.09,Sarrià,2.598843589405734
+partly-cloudy-day,0.93,Sant Antoni,3.1622058971930582
+rain,0.88,les Tres Torres,3.9204388322917647
+partly-cloudy-day,0.9,el Fort Pienc,4.7885404971762675
+rain,0.05,Diagonal Mar i el Front Marítim del Poblenou,2.6990616429403844
+partly-cloudy-day,0.19,Sant Martí de Provençals,5.624605372682023
+partly-cloudy-day,0.25,les Roquetes,2.9006018035247885
+partly-cloudy-day,0.95,la Dreta de l'Eixample,4.972876861897013
+rain,0.75,la Trinitat Nova,7.673177126707731
+partly-cloudy-day,0.57,Can Baró,3.9728765345486203
+clear-day,0.87,el Camp d'en Grassot i Gràcia Nova,2.2209231466046266
+partly-cloudy-day,0.74,la Vall d'Hebron,4.104665030748965
+partly-cloudy-day,0.93,la Vila de Gràcia,2.8618615761401176
+partly-cloudy-day,0.52,la Barceloneta,4.518519313143003
+partly-cloudy-day,0.33,UNKNOWN,3.5006365148182255
+clear-day,0.09,Montbau,2.256870427499337
+rain,0.8,la Vall d'Hebron,3.806063983216448
+partly-cloudy-day,0.71,el Clot,3.364226133093498
+rain,0.46,la Sagrada Família,3.7130812089364706
+partly-cloudy-day,0.95,els Penitents,5.0170225208628665
+partly-cloudy-day,0.72,la Marina del Prat Vermell,3.7500485753221007
+rain,0.7,els Indians,3.1215939525740484
+rain,0.0,el Bon Pastor,5.654542326941915
+rain,0.75,Sants-Badal,4.517011390575969
+rain,0.88,Galvany,4.220861054513986
+clear-day,0.45,la Clota,1.8559970154775738
+partly-cloudy-day,0.14,la Marina de Port,4.546696355870564
+partly-cloudy-day,0.12,Diagonal Mar i el Front Marítim del Poblenou,3.5557361953473907
+partly-cloudy-day,0.39,Can Peguera,3.1299733358249493
+partly-cloudy-day,0.38,el Fort Pienc,3.0489514889700664
+rain,0.25,Sarrià,6.62123264450047
+partly-cloudy-day,0.19,Pedralbes,4.487914284412295
+partly-cloudy-day,0.42,la Trinitat Nova,2.765534611734781
+partly-cloudy-day,0.69,Sant Martí de Provençals,3.187356129498553
+partly-cloudy-day,0.69,Sant Andreu de Palomar,3.315664215204014
+partly-cloudy-day,0.57,el Guinardó,3.9725668988838483
+partly-cloudy-day,0.38,la Maternitat i Sant Ramon,2.8500382703240668
+clear-day,0.85,Can Baró,2.5459467722094407
+partly-cloudy-day,0.1,Diagonal Mar i el Front Marítim del Poblenou,4.225000478069953
+rain,0.0,Sarrià,5.864658993643907
+partly-cloudy-day,0.21,Galvany,3.9521123703426593
+partly-cloudy-day,0.69,Montbau,3.2574678224184432
+partly-cloudy-day,0.95,la Torre Llobeta,4.9443286025603115
+partly-cloudy-day,0.92,Sant Genís dels Agudells,2.8417864479178703
+partly-cloudy-day,0.36,el Turó de la Peira,5.145757863926924
+rain,0.0,el Bon Pastor,5.6138996154775045
+partly-cloudy-day,0.97,el Turó de la Peira,4.579998934940214
+rain,0.8,la Trinitat Nova,3.7559721748685693
+partly-cloudy-day,0.29,la Barceloneta,3.915848092565647
+rain,0.05,el Carmel,2.6623595874044352
+rain,0.8,la Marina de Port,4.20593993986563
+rain,0.31,l'Antiga Esquerra de l'Eixample,4.9248346821799585
+partly-cloudy-day,0.71,Sant Antoni,3.825081647518552
+clear-day,0.45,el Guinardó,2.198141144501825
+clear-day,0.82,Diagonal Mar i el Front Marítim del Poblenou,2.3063927496570202
+partly-cloudy-day,0.74,la Vila de Gràcia,3.9429511370116694
+rain,0.88,la Guineueta,3.7384055158557317
+rain,0.71,Sarrià,4.840023846388352
+partly-cloudy-day,0.17,la Prosperitat,3.695792504569631
+partly-cloudy-day,0.15,Sant Martí de Provençals,3.1691515412280586
+partly-cloudy-day,0.43,les Tres Torres,3.38967814705738
+rain,0.97,el Guinardó,5.646881446116865
+partly-cloudy-day,0.52,Sant Martí de Provençals,4.591797817386935
+rain,0.28,la Clota,5.147243039589963
+rain,0.94,la Bordeta,4.705737007295041
+rain,0.02,la Teixonera,5.158050487961057
+partly-cloudy-day,0.0,Sants,5.211948769152382
+partly-cloudy-day,0.95,l'Antiga Esquerra de l'Eixample,5.019243697454255
+rain,0.94,la Font d'en Fargues,5.059236523302201
+rain,0.05,la Ribera,2.6346983407852202
+partly-cloudy-day,0.21,la Trinitat Nova,3.7905978517938403
+partly-cloudy-day,0.74,la Font de la Guatlla,4.43966345052759
+partly-cloudy-day,0.25,el Raval,5.299066951695271
+partly-cloudy-day,0.73,les Roquetes,3.342431366640679
+rain,0.8,la Trinitat Nova,5.864975099184797
+rain,0.02,la Vila de Gràcia,5.1858052316690495
+rain,0.8,el Gòtic,5.649863988774306
+rain,0.53,la Bordeta,4.622646930661369
+partly-cloudy-day,0.74,la Nova Esquerra de l'Eixample,4.210061774056369
+partly-cloudy-day,0.75,Sant Martí de Provençals,4.104428964869042
+rain,0.94,Hostafrancs,4.866025548629429
+partly-cloudy-day,0.04,el Putxet,3.3919954528011313
+rain,0.28,les Tres Torres,5.214401769577112
+rain,0.07,la Sagrada Família,2.360556735564083
+partly-cloudy-day,0.65,el Fort Pienc,5.323077748422398
+partly-cloudy-day,0.92,Sants-Badal,3.274633153138641
+partly-cloudy-day,0.93,Montbau,2.7222341009653133
+rain,0.0,la Teixonera,5.376451573297602
+partly-cloudy-day,0.67,el Putxet,2.9701148050846395
+rain,0.8,el Besòs i el Maresme,3.606270541400093
+partly-cloudy-day,0.65,Sant Martí de Provençals,5.320650919324988
+partly-cloudy-day,0.57,la Barceloneta,3.9580012325020215
+partly-cloudy-day,0.12,Sant Martí de Provençals,3.574845884259264
+clear-day,0.09,la Guineueta,2.2300783128039967
+clear-day,0.85,Sant Martí de Provençals,2.5459467722094407
+partly-cloudy-day,0.63,la Trinitat Nova,3.761383535624042
+partly-cloudy-day,0.39,els Penitents,3.5136423225439066
+partly-cloudy-day,0.14,la Teixonera,3.906496066343864
+partly-cloudy-day,0.75,Diagonal Mar i el Front Marítim del Poblenou,3.243464092530793
+partly-cloudy-day,0.68,la Sagrera,3.724553002238098
+rain,0.94,el Gòtic,4.72430469707851
+partly-cloudy-day,0.72,Can Peguera,3.35230700663328
+clear-day,0.45,la Ribera,1.9775874246877916
+partly-cloudy-day,0.83,la Guineueta,2.726387976611311
+rain,0.8,Sarrià,5.900935556470483
+partly-cloudy-day,0.14,la Vila de Gràcia,4.007376038286103
+partly-cloudy-day,0.35,el Gòtic,3.5838124595668543
+partly-cloudy-day,0.71,la Vall d'Hebron,3.5684977746785655
+partly-cloudy-day,0.33,el Bon Pastor,3.223674845430917
+partly-cloudy-day,0.42,el Baix Guinardó,2.8783185590877394
+partly-cloudy-day,0.14,la Font de la Guatlla,4.488218735490842
+rain,0.02,Sants-Badal,5.503801456812208
+rain,0.53,Sant Antoni,4.7542791360263275
+rain,0.9,Sarrià,5.766373035158983
+rain,0.0,Sarrià,5.6876837472288715
+partly-cloudy-day,0.75,la Font de la Guatlla,3.3397088960222576
+rain,0.97,la Nova Esquerra de l'Eixample,5.620871644758463
+partly-cloudy-day,0.95,Sant Gervasi,4.992502995885419
+rain,0.8,la Ribera,5.649500210680483
+partly-cloudy-day,0.52,la Marina del Prat Vermell,4.991083318290615
+partly-cloudy-day,0.0,el Baix Guinardó,5.4620193880916545
+rain,0.07,la Font d'en Fargues,2.255843229887709
+rain,0.53,Sarrià,6.840628037319131
+partly-cloudy-day,0.39,la Marina del Prat Vermell,3.691089550862698
+partly-cloudy-day,0.0,la Clota,5.139966425005838
+clear-day,0.87,la Barceloneta,2.3123773853600613
+partly-cloudy-day,0.75,el Coll,3.79932876446824
+partly-cloudy-day,0.93,la Clota,2.738360782909023
+partly-cloudy-day,0.68,el Raval,4.055395699442837
+partly-cloudy-day,0.19,el Poblenou,5.340422418960961
+partly-cloudy-day,0.57,el Carmel,3.9763759865933173
+partly-cloudy-day,0.19,la Sagrera,5.619195536616449
+partly-cloudy-day,0.52,el Raval,4.384594581960207
+partly-cloudy-day,0.5,la Bordeta,3.740261373560918
+partly-cloudy-day,0.75,la Trinitat Nova,4.014163012551927
+partly-cloudy-day,0.39,el Bon Pastor,3.414930957160811
+partly-cloudy-day,0.59,la Sagrera,4.656673756467633
+partly-cloudy-day,0.21,Provençals del Poblenou,3.620220055246518
+partly-cloudy-day,0.15,Hostafrancs,3.19417194044944
+rain,0.7,la Barceloneta,3.570967052160612
+cloudy,0.62,el Turó de la Peira,6.628004639633578
+rain,0.46,el Coll,3.3803157016718677
+partly-cloudy-day,0.75,les Tres Torres,3.868109611902576
+partly-cloudy-day,0.75,el Gòtic,4.209995518388562
+rain,0.32,Sarrià,4.9756929045144656
+rain,0.07,la Font de la Guatlla,2.4252366143003443
+rain,0.6,la Trinitat Nova,6.421593098082882
+rain,0.0,la Clota,5.374343171547867
+partly-cloudy-day,0.1,Sant Gervasi,4.322730366426488
+rain,0.88,Pedralbes,4.12183336211762
+rain,0.88,el Besòs i el Maresme,3.8425710994290125
+partly-cloudy-day,0.25,Sant Andreu de Palomar,5.480717771991483
+partly-cloudy-day,0.19,Can Baró,5.635063996021893
+partly-cloudy-day,0.04,el Bon Pastor,3.2706916741998016
+partly-cloudy-day,0.52,els Indians,4.275412912904957
+partly-cloudy-day,0.75,la Dreta de l'Eixample,3.275098185088669
+rain,0.94,la Trinitat Nova,5.07269444066463
+partly-cloudy-day,0.75,la Sagrera,3.943970341529172
+rain,0.87,UNKNOWN,2.5014574525159374
+partly-cloudy-day,0.56,la Vila de Gràcia,3.3357039680159426
+rain,0.8,el Putxet,5.776723993106372
+rain,0.05,Sarrià,2.7808089039410278
+partly-cloudy-day,0.72,la Barceloneta,3.6963615196784074
+partly-cloudy-day,0.21,Can Baró,3.8995610311050446
+clear-day,0.87,la Nova Esquerra de l'Eixample,2.3295369574568374
+partly-cloudy-day,0.5,UNKNOWN,4.124824581886024
+partly-cloudy-day,0.17,la Vall d'Hebron,3.721809951650172
+partly-cloudy-day,0.14,la Ribera,4.071521717269666
+partly-cloudy-day,0.12,la Torre Llobeta,3.5370272880210156
+partly-cloudy-day,0.04,la Verneda i la Pau,3.4005721001907454
+clear-day,0.9,les Roquetes,1.4299468953772165
+partly-cloudy-day,0.75,la Marina de Port,4.2951098571783675
+partly-cloudy-day,0.39,el Guinardó,3.472582496799228
+partly-cloudy-day,0.73,la Guineueta,3.053148212518815
+partly-cloudy-day,0.25,el Besòs i el Maresme,3.465620347575697
+partly-cloudy-day,0.21,el Carmel,3.8426327459549223
+partly-cloudy-day,0.43,la Marina de Port,3.776950568979784
+clear-day,0.45,la Barceloneta,2.1383556836924336
+clear-day,0.85,el Turó de la Peira,2.503079388696896
+partly-cloudy-day,0.43,el Fort Pienc,3.6741193233167087
+partly-cloudy-day,0.04,la Vall d'Hebron,3.4392565099645207
+rain,0.94,la Prosperitat,5.071977752808631
+rain,0.6,les Tres Torres,3.6111583183347715
+partly-cloudy-day,0.56,el Parc i la Llacuna del Poblenou,3.3357039680159426
+partly-cloudy-day,0.25,la Marina del Prat Vermell,3.256052438033126
+partly-cloudy-day,0.12,el Bon Pastor,3.231668865081948
+rain,0.94,les Roquetes,5.073361307732098
+partly-cloudy-day,0.92,l'Antiga Esquerra de l'Eixample,3.025044293887735
+partly-cloudy-day,0.83,Sant Andreu de Palomar,3.042721467966782
+partly-cloudy-day,0.75,la Vall d'Hebron,3.174476435684696
+partly-cloudy-day,0.5,el Camp de l'Arpa del Clot,3.548741563272264
+partly-cloudy-day,0.83,la Marina de Port,3.2394571421472715
+partly-cloudy-day,0.36,la Font d'en Fargues,5.167191555683198
+partly-cloudy-day,0.04,el Guinardó,3.4220572050735236
+partly-cloudy-day,0.68,la Prosperitat,3.6394900765747957
+cloudy,0.62,la Trinitat Nova,6.6113615126133345
+partly-cloudy-day,0.9,la Verneda i la Pau,4.835566336857275
+partly-cloudy-day,0.75,la Clota,2.884935059024566
+rain,0.03,Sants-Badal,3.145310908767415
+rain,0.07,la Trinitat Nova,2.1996006398777928
+rain,0.88,Diagonal Mar i el Front Marítim del Poblenou,4.157332590152394
+partly-cloudy-day,0.25,els Penitents,3.0320315647453318
+clear-day,0.09,Provençals del Poblenou,2.3426566076509325
+partly-cloudy-day,0.19,la Clota,5.318937314078183
+clear-day,0.87,Sarrià,2.082908100118211
+clear-day,0.87,els Penitents,2.1567774676210636
+rain,0.94,el Baix Guinardó,5.051813151998808
+rain,0.05,els Indians,2.49402503047696
+rain,0.97,la Marina del Prat Vermell,5.750461726508425
+clear-day,0.82,la Font de la Guatlla,2.4503469145235655
+cloudy,0.62,Provençals del Poblenou,6.3400640113295506
+clear-day,0.9,la Clota,1.1892505964982436
+partly-cloudy-day,0.0,el Raval,5.190205441731339
+partly-cloudy-day,0.19,UNKNOWN,5.537976384050785
+rain,0.94,la Torre Llobeta,5.057103211158202
+rain,0.02,Galvany,5.3338490325324255
+rain,0.26,UNKNOWN,4.15092151373668
+partly-cloudy-day,0.35,la Ribera,3.428948188403365
+partly-cloudy-day,0.19,Diagonal Mar i el Front Marítim del Poblenou,5.63532221856016
+rain,0.03,el Guinardó,3.026290496728813
+partly-cloudy-day,0.72,Sant Genís dels Agudells,3.647465028770745
+clear-day,0.85,Hostafrancs,2.5808579365676536
+partly-cloudy-day,0.57,Provençals del Poblenou,3.6685510017626184
+partly-cloudy-day,0.43,la Maternitat i Sant Ramon,3.425534946148246
+partly-cloudy-day,0.29,Sant Andreu de Palomar,3.4586462695648064
+partly-cloudy-day,0.36,Can Baró,5.209852129783983
+rain,0.02,Diagonal Mar i el Front Marítim del Poblenou,5.312031438298183
+partly-cloudy-day,0.56,Sant Martí de Provençals,3.4813554301740566
+partly-cloudy-day,0.68,Sant Antoni,3.937339427665484
+rain,0.03,la Barceloneta,3.185250312853217
+rain,0.72,la Trinitat Nova,6.433230923442748
+partly-cloudy-day,0.9,la Sagrera,4.835824559395542
+partly-cloudy-day,0.73,els Penitents,3.293518147994679
+rain,0.8,la Clota,5.587762649460151
+partly-cloudy-day,0.74,Diagonal Mar i el Front Marítim del Poblenou,4.211317044453794
+partly-cloudy-day,0.9,Can Peguera,4.5589501454286445
+partly-cloudy-day,0.71,la Trinitat Nova,3.5409309923684256
+rain,0.19,Sarrià,6.58174294001953
+rain,0.66,Sarrià,5.420297922950902
+rain,0.0,la Trinitat Nova,7.566912484037349
+partly-cloudy-day,0.56,el Fort Pienc,3.6566726278221875
+partly-cloudy-day,0.33,la Sagrera,3.312444032550676
+partly-cloudy-day,0.83,Galvany,3.0815332215638755
+cloudy,0.62,la Font d'en Fargues,6.623162661771043
+rain,0.84,la Dreta de l'Eixample,4.788363378210677
+partly-cloudy-day,0.42,la Font d'en Fargues,2.8353483493221825
+rain,0.75,la Marina del Prat Vermell,4.686164721157456
+partly-cloudy-day,0.63,el Poblenou,3.6801488122257795
+rain,0.02,el Carmel,5.3009046515794385
+clear-day,0.09,la Clota,2.267587273377474
+partly-cloudy-day,0.57,el Camp d'en Grassot i Gràcia Nova,3.9749937279812584
+partly-cloudy-day,0.97,el Carmel,4.595815981219152
+rain,0.8,la Font de la Guatlla,4.146891731980325
+partly-cloudy-day,0.0,Sant Gervasi,5.462535833168188
+rain,0.84,Can Baró,4.592696595824
+rain,0.8,la Vila Olímpica del Poblenou,4.007826656403471
+partly-cloudy-day,0.5,la Maternitat i Sant Ramon,2.8180981240935363
+partly-cloudy-day,0.0,Sants-Badal,5.661948769152382
+rain,0.8,Sant Antoni,5.821971094289173
+clear-day,0.45,la Prosperitat,2.1396121109955977
+rain,0.0,la Clota,5.328733128022306
+rain,0.02,el Besòs i el Maresme,5.490706801092636
+rain,0.7,la Ribera,3.245437302432587
+partly-cloudy-day,0.65,la Vila Olímpica del Poblenou,5.313135570159063
+partly-cloudy-day,0.15,la Sagrera,3.0084346953499224
+rain,0.05,el Bon Pastor,2.7370512152926807
+partly-cloudy-day,0.17,la Trinitat Nova,3.6799240451641877
+partly-cloudy-day,0.1,Sarrià,4.768541989672982
+clear-day,0.87,la Dreta de l'Eixample,2.264100165781943
+partly-cloudy-day,0.67,la Vila Olímpica del Poblenou,3.003298232872114
+partly-cloudy-day,0.95,Sarrià,4.858578264702624
+partly-cloudy-day,0.38,la Marina de Port,3.240666428338197
+partly-cloudy-day,0.29,la Vila Olímpica del Poblenou,3.7283391319921706
+clear-day,0.09,la Trinitat Nova,2.5191032443875945
+partly-cloudy-day,0.69,la Font d'en Fargues,3.326381061082151
+rain,0.8,el Baix Guinardó,5.765486400452353
+partly-cloudy-day,0.19,els Penitents,5.6401641964226945
+rain,0.0,la Barceloneta,5.673503588468435
+partly-cloudy-day,0.17,la Font d'en Fargues,3.748137034395485
+partly-cloudy-day,0.1,els Indians,3.98463054259409
+partly-cloudy-day,0.38,Sarrià,3.0594101123099358
+partly-cloudy-day,0.74,Sants-Badal,4.284305027588522
+partly-cloudy-day,0.57,la Vila de Gràcia,3.6752519505195242
+partly-cloudy-day,0.59,la Torre Llobeta,4.604329226641778
+clear-day,0.45,la Guineueta,1.8449705339346656
+partly-cloudy-day,0.72,el Besòs i el Maresme,3.379150534455126
+partly-cloudy-day,0.92,la Dreta de l'Eixample,3.00896902507053
+partly-cloudy-day,0.29,els Indians,3.491055029737482
+partly-cloudy-day,0.68,les Tres Torres,3.696918079063115
+partly-cloudy-day,0.97,la Guineueta,4.253981487859673
+partly-cloudy-day,0.73,el Guinardó,3.2620908648485645
+rain,0.53,l'Antiga Esquerra de l'Eixample,4.70943159166326
+rain,0.83,la Trinitat Nova,6.2153970989337495
+partly-cloudy-day,0.68,l'Antiga Esquerra de l'Eixample,3.8680935482811205
+partly-cloudy-day,0.75,la Teixonera,2.895651904902702
+cloudy,0.62,la Guineueta,6.322387994156243
+partly-cloudy-day,0.97,Hostafrancs,4.687654273821749
+partly-cloudy-day,0.97,la Vila Olímpica del Poblenou,4.587548969494309
+clear-day,0.45,el Coll,1.8876825211619548
+rain,0.53,la Nova Esquerra de l'Eixample,4.732324697494171
+rain,0.0,els Indians,5.355799748501056
+rain,0.6,la Maternitat i Sant Ramon,3.7269345685907336
+rain,0.88,el Bon Pastor,3.776516332735982
+rain,0.75,la Trinitat Nova,7.470571907808805
+clear-day,0.09,Sarrià,2.632197984311063
+partly-cloudy-day,0.75,la Guineueta,3.7461581539010806
+clear-day,0.9,Can Peguera,1.167507269077199
+partly-cloudy-day,0.67,el Bon Pastor,2.9412339050272824
+partly-cloudy-day,0.52,el Parc i la Llacuna del Poblenou,4.304115411621175
+clear-day,0.09,el Bon Pastor,2.524461667326663
+clear-day,0.87,la Marina del Prat Vermell,2.6404438850083976
+partly-cloudy-day,0.39,UNKNOWN,3.589744546970432
+clear-day,0.09,el Gòtic,2.8022210093846547
+rain,0.97,el Parc i la Llacuna del Poblenou,5.492990576281536
+rain,0.6,el Turó de la Peira,3.7746974699442952
+partly-cloudy-day,0.92,el Bon Pastor,2.8863457257072467
+clear-day,0.85,Sarrià,2.61760780035893
+rain,0.88,la Trinitat Nova,6.648382209185985
+partly-cloudy-day,0.67,la Dreta de l'Eixample,3.147939809933046
+clear-day,0.82,el Bon Pastor,2.345931648242722
+rain,0.31,Montbau,4.658248890542116
+rain,0.84,Sants-Badal,4.704263464840251
+partly-cloudy-day,0.39,la Font de la Guatlla,3.627253507543909
+rain,0.0,les Roquetes,5.622193623176784
+partly-cloudy-day,0.12,la Bordeta,3.4274113819035925
+rain,0.84,la Vall d'Hebron,4.44115778927265
+partly-cloudy-day,0.17,Sarrià,3.7234851181886666
+partly-cloudy-day,0.57,Sarrià,3.9733929796251535
+partly-cloudy-day,0.52,el Camp d'en Grassot i Gràcia Nova,4.598756988682107
+partly-cloudy-day,0.42,Diagonal Mar i el Front Marítim del Poblenou,2.9148460426346556
+rain,0.28,la Font d'en Fargues,5.447395706572674
+rain,0.8,la Clota,3.5222962207157136
+partly-cloudy-day,0.42,la Dreta de l'Eixample,2.9521481937963707
+partly-cloudy-day,0.12,la Teixonera,3.3245053624494423
+partly-cloudy-day,0.0,la Nova Esquerra de l'Eixample,5.490205441731338
+clear-day,0.85,el Besòs i el Maresme,2.251305195148509
+partly-cloudy-day,0.63,la Sagrera,3.879320253410046
+partly-cloudy-day,0.14,la Maternitat i Sant Ramon,4.145558161390058
+partly-cloudy-day,0.5,Sant Andreu de Palomar,2.8014089869615253
+partly-cloudy-day,0.67,la Sagrada Família,3.094872025618898
+partly-cloudy-day,0.75,el Parc i la Llacuna del Poblenou,2.262206646679575
+partly-cloudy-day,0.12,Sant Genís dels Agudells,3.6084300936322378
+rain,0.75,Sant Martí de Provençals,4.300288241333716
+partly-cloudy-day,0.56,la Torre Llobeta,3.4340596876224976
+partly-cloudy-day,0.69,Sarrià,3.8348930112413555
+partly-cloudy-day,0.5,Provençals del Poblenou,3.5382829399323943
+clear-day,0.45,Sants-Badal,2.336116458194019
+rain,0.46,la Nova Esquerra de l'Eixample,3.796210136496037
+partly-cloudy-day,0.29,Pedralbes,3.8452542843487088
+partly-cloudy-day,0.63,la Prosperitat,3.6543023322630925
+partly-cloudy-day,0.5,la Nova Esquerra de l'Eixample,3.9643659585461544
+rain,0.6,Provençals del Poblenou,3.579512229476875
+partly-cloudy-day,0.93,els Penitents,3.097406261491783
+rain,0.02,la Bordeta,5.205202426758447
+partly-cloudy-day,0.5,la Ribera,2.658391163312582
+rain,0.7,el Besòs i el Maresme,3.9854708447448988
+rain,0.6,Sant Genís dels Agudells,3.8572409359938518
+partly-cloudy-day,0.5,Montbau,3.503137714997537
+partly-cloudy-day,0.33,Sarrià,3.1311838260221014
+rain,0.07,Pedralbes,2.350432533567046
+clear-day,0.45,el Gòtic,2.2883556836924335
+partly-cloudy-day,0.21,la Font d'en Fargues,3.8633431832229004
+rain,0.28,la Maternitat i Sant Ramon,5.2483143259490355
+partly-cloudy-day,0.25,el Guinardó,2.9909717390006527
+partly-cloudy-day,0.97,la Vila de Gràcia,4.395663063008325
+partly-cloudy-day,0.35,el Guinardó,3.6589258987885365
+partly-cloudy-day,0.04,la Vila Olímpica del Poblenou,3.5199541700475985
+rain,0.26,el Bon Pastor,3.8937557206898665
+partly-cloudy-day,0.69,el Fort Pienc,3.3389568778546574
+partly-cloudy-day,0.42,Sant Gervasi,2.553901860363303
+rain,0.87,les Tres Torres,2.2977930622747347
+partly-cloudy-day,0.19,Provençals del Poblenou,5.329963795621091
+rain,0.07,el Parc i la Llacuna del Poblenou,2.0716958036644413
+rain,0.07,Sants,2.2591099323566346
+partly-cloudy-day,0.69,el Parc i la Llacuna del Poblenou,3.1779303963117496
+rain,0.28,el Putxet,5.336830685567622
+rain,0.7,la Verneda i la Pau,3.4431023755131163
+partly-cloudy-day,0.43,la Bordeta,3.4458329214984413
+partly-cloudy-day,0.19,la Trinitat Nova,5.582151607993
+rain,0.46,la Bordeta,3.5437842459111777
+partly-cloudy-day,0.42,la Vila Olímpica del Poblenou,2.962916452801013
+partly-cloudy-day,0.75,la Sagrera,2.560812707735231
+partly-cloudy-day,0.35,Diagonal Mar i el Front Marítim del Poblenou,3.7055860163115235
+partly-cloudy-day,0.1,la Clota,4.049900257651444
+partly-cloudy-day,0.0,les Tres Torres,5.178920737650164
+rain,0.05,la Teixonera,2.5138124547879475
+partly-cloudy-day,0.5,UNKNOWN,2.9519714421498264
+partly-cloudy-day,0.33,el Gòtic,3.4384012198555407
+rain,0.6,la Verneda i la Pau,3.837819534768462
+partly-cloudy-day,0.95,la Maternitat i Sant Ramon,4.7513942350886635
+partly-cloudy-day,0.12,les Roquetes,3.488750068442897
+partly-cloudy-day,0.97,la Sagrada Família,4.6903046400692565
+partly-cloudy-day,0.5,la Clota,2.501667209499792
+rain,0.87,Sant Antoni,2.7700060629985512
+partly-cloudy-day,0.5,el Bon Pastor,3.772278290054461
+rain,0.94,la Guineueta,4.769338863919741
+partly-cloudy-day,0.25,el Clot,2.7175056311577266
+rain,0.8,el Clot,5.6102806444959965
+rain,0.97,Diagonal Mar i el Front Marítim del Poblenou,5.801150295455474
+partly-cloudy-day,0.59,el Camp de l'Arpa del Clot,4.559018286293486
+rain,0.0,la Trinitat Nova,5.608148666720597
+partly-cloudy-day,0.75,el Bon Pastor,3.1580915312027193
+rain,0.97,Montbau,5.490230338089657
+partly-cloudy-day,0.33,Montbau,3.1351354727788032
+rain,0.87,la Trinitat Nova,6.455328985069263
+partly-cloudy-day,0.67,la Sagrera,3.015270349147676
+rain,0.97,el Camp d'en Grassot i Gràcia Nova,5.791335221126782
+partly-cloudy-day,0.1,Can Baró,4.166832493355004
+rain,0.84,Sarrià,4.55238445065111
+partly-cloudy-day,0.63,Sant Antoni,4.119519221768056
+partly-cloudy-day,0.25,el Bon Pastor,5.480717771991483
+rain,0.75,la Bordeta,4.366836058190769
+rain,0.84,Pedralbes,4.604436803461792
+partly-cloudy-day,0.95,el Camp d'en Grassot i Gràcia Nova,4.951443170140739
+rain,0.03,el Camp d'en Grassot i Gràcia Nova,3.0894818740130243
+partly-cloudy-day,0.74,la Marina del Prat Vermell,4.540440596216819
+partly-cloudy-day,0.19,Sants-Badal,5.853793430329723
+partly-cloudy-day,0.59,la Trinitat Nova,4.613112683443153
+partly-cloudy-day,0.36,el Besòs i el Maresme,4.910110352322248
+partly-cloudy-day,0.83,Sants-Badal,3.1904052549543533
+rain,0.0,la Sagrera,5.634491107781107
+clear-day,0.9,la Font d'en Fargues,1.5050676427771814
+partly-cloudy-day,0.92,el Fort Pienc,2.9985104017306607
+rain,0.28,els Penitents,5.464566611370693
+partly-cloudy-day,0.15,Sarrià,3.1847103649687294
+rain,0.83,el Besòs i el Maresme,4.488287851353451
+partly-cloudy-day,0.75,la Torre Llobeta,4.07274345918466
+partly-cloudy-day,0.38,el Raval,2.818404177766191
+rain,0.04,la Trinitat Nova,6.410744449213369
+partly-cloudy-day,0.69,el Camp de l'Arpa del Clot,3.192714552437621
+partly-cloudy-day,0.21,el Besòs i el Maresme,3.6151198548457164
+partly-cloudy-day,0.25,el Parc i la Llacuna del Poblenou,5.250480096452379
+partly-cloudy-day,0.43,la Trinitat Nova,3.5919985149216114
+partly-cloudy-day,0.92,Pedralbes,2.8595598883294526
+rain,0.26,el Camp d'en Grassot i Gràcia Nova,3.9918194146504415
+partly-cloudy-day,0.65,la Guineueta,5.033473278303478
+partly-cloudy-day,0.75,la Vila de Gràcia,2.958971503144959
+partly-cloudy-day,0.59,les Tres Torres,4.663965568483462
+partly-cloudy-day,0.68,el Bon Pastor,3.521382391670938
+rain,0.97,la Prosperitat,5.814468035442175
+rain,0.46,les Roquetes,3.621521878995078
+partly-cloudy-day,0.57,Hostafrancs,3.8109445066759644
+rain,0.46,les Tres Torres,3.448049805174719
+rain,0.02,la Nova Esquerra de l'Eixample,5.343898062662723
+partly-cloudy-day,0.1,el Baix Guinardó,4.188266185111277
+partly-cloudy-day,0.43,Sarrià,3.648462925027445
+rain,0.94,Sarrià,7.021819944018715
+partly-cloudy-day,0.63,el Besòs i el Maresme,3.61152220417096
+partly-cloudy-day,0.14,la Dreta de l'Eixample,4.344678189447818
+partly-cloudy-day,0.33,Diagonal Mar i el Front Marítim del Poblenou,3.572514839303144
+partly-cloudy-day,0.21,Sarrià,3.8947190532425098
+clear-day,0.85,la Sagrera,2.5352299263313047
+partly-cloudy-day,0.71,la Guineueta,3.262364684124698
+rain,0.04,Sarrià,5.830517190441757
+clear-day,0.45,Montbau,1.8559970154775738
+rain,0.72,la Trinitat Nova,6.573399374046288
+rain,0.6,la Torre Llobeta,3.7909367384454553
+partly-cloudy-day,0.62,la Trinitat Nova,6.014844810956892
+partly-cloudy-day,0.36,la Nova Esquerra de l'Eixample,5.354374152853566
+partly-cloudy-day,0.59,Can Baró,4.683000839212945
+partly-cloudy-day,0.59,Sarrià,4.8035069451435914
+partly-cloudy-day,0.25,el Bon Pastor,5.180717771991483
+partly-cloudy-day,0.38,el Carmel,2.911388637195656
+partly-cloudy-day,0.93,la Verneda i la Pau,3.065462533269136
+partly-cloudy-day,0.63,el Parc i la Llacuna del Poblenou,3.6855072351648475
+rain,0.28,la Marina del Prat Vermell,5.598560373676434
+rain,0.8,la Trinitat Nova,3.7882282680585337
+partly-cloudy-day,0.36,el Bon Pastor,5.108455712765209
+clear-day,0.09,el Poblenou,2.4164348292330593
+partly-cloudy-day,0.14,Sant Andreu de Palomar,4.164093714781347
+rain,0.8,el Bon Pastor,5.886765538032996
+partly-cloudy-day,0.83,la Trinitat Nova,3.0153614950684027
+rain,0.8,Sarrià,3.862879745377117
+partly-cloudy-day,0.69,la Marina de Port,3.5438836330631767
+rain,0.84,Montbau,4.297888434433942
+rain,0.6,la Vila Olímpica del Poblenou,3.9066243837990338
+rain,0.6,la Bordeta,3.793391621406041
+partly-cloudy-day,0.67,Sarrià,3.110172626821303
+partly-cloudy-day,0.25,Sant Martí de Provençals,2.9963301619397207
+partly-cloudy-day,0.9,la Trinitat Nova,5.4230778014104475
+partly-cloudy-day,0.43,la Vila de Gràcia,3.369070536042412
+partly-cloudy-day,0.75,Pedralbes,3.1467386862567017
+partly-cloudy-day,0.95,la Vila de Gràcia,4.656801593079807
+partly-cloudy-day,0.17,la Sagrada Família,3.8315992117026814
+partly-cloudy-day,0.42,la Sagrera,2.8568334542049616
+partly-cloudy-day,0.65,el Parc i la Llacuna del Poblenou,5.022251667681092
+rain,0.94,Sant Antoni,5.017099467888123
+rain,0.46,la Trinitat Nova,3.628569190823035
+cloudy,0.62,el Besòs i el Maresme,6.334705588390483
+partly-cloudy-day,0.04,el Camp d'en Grassot i Gràcia Nova,3.4711605053929477
+clear-day,0.85,la Clota,2.2747404168463854
+partly-cloudy-day,0.14,el Bon Pastor,4.158993514380545
+clear-day,0.09,Sant Gervasi,2.7059762058931898
+partly-cloudy-day,0.15,Diagonal Mar i el Front Marítim del Poblenou,3.1653424535185892
+rain,0.8,Sant Gervasi,3.9698553931825113
+partly-cloudy-day,0.0,la Prosperitat,5.423581520523861
+rain,0.31,Galvany,4.8919589561135215
+clear-day,0.82,la Ribera,2.2204870155140766
+partly-cloudy-day,0.95,el Besòs i el Maresme,4.665710881190079
+partly-cloudy-day,0.72,Sant Gervasi,3.6748764147956297
+partly-cloudy-day,0.75,la Font d'en Fargues,2.5449442483297875
+partly-cloudy-day,0.75,la Trinitat Nova,4.040748317835507
+partly-cloudy-day,0.52,la Bordeta,4.642806098712496
+rain,0.84,Sant Gervasi,4.632471095172306
+partly-cloudy-day,0.67,la Guineueta,2.630000614072613
+partly-cloudy-day,0.35,Galvany,3.644502815157774
+rain,0.6,la Nova Esquerra de l'Eixample,3.9882266614726607
+rain,0.56,la Trinitat Nova,3.30839568673748
+partly-cloudy-day,0.92,el Carmel,2.8522450712577396
+cloudy,0.62,Sarrià,6.512633419491901
+rain,0.97,la Guineueta,5.508556924331065
+partly-cloudy-day,0.72,el Bon Pastor,3.357665429572348
+partly-cloudy-day,0.65,la Barceloneta,5.154019472637031
+partly-cloudy-day,0.39,Sarrià,3.397135385996154
+partly-cloudy-day,0.5,la Torre Llobeta,2.8067674099005937
+clear-day,0.9,la Barceloneta,1.754639774289751
+partly-cloudy-day,0.65,la Sagrera,5.32008306112195
+partly-cloudy-day,0.28,la Trinitat Nova,5.119522077235144
+partly-cloudy-day,0.75,Sarrià,3.216827374120708
+rain,0.7,el Coll,3.111069221391252
+rain,0.46,el Bon Pastor,3.6470609047167724
+partly-cloudy-day,0.97,Diagonal Mar i el Front Marítim del Poblenou,4.679846016729387
+rain,0.0,els Penitents,5.5435142131786925
+clear-day,0.09,Hostafrancs,2.7221387301308066
+partly-cloudy-day,0.93,la Trinitat Nova,4.225260856044305
+partly-cloudy-day,0.14,el Parc i la Llacuna del Poblenou,4.002275837885301
+partly-cloudy-day,0.75,Can Peguera,2.229075788924344
+partly-cloudy-day,0.68,el Clot,3.611855153399814
+rain,0.07,el Poblenou,2.0667596029475956
+rain,0.88,la Verneda i la Pau,4.111249371838453
+partly-cloudy-day,0.29,Sants,3.7316676169190135
+rain,0.0,la Trinitat Nova,5.2144670278332095
+partly-cloudy-day,0.69,Pedralbes,3.3708491929508004
+partly-cloudy-day,0.59,la Trinitat Nova,5.95523999229436
+partly-cloudy-day,0.59,la Ribera,4.700751274568645
+rain,0.87,el Besòs i el Maresme,3.4977976712576693
+rain,0.02,el Clot,5.169254082511341
+partly-cloudy-day,0.35,Sant Martí de Provençals,3.664618903935499
+partly-cloudy-day,0.93,el Guinardó,3.0866894156136473
+partly-cloudy-day,0.43,Sants-Badal,3.8907841342241447
+partly-cloudy-day,0.19,la Font de la Guatlla,5.698693229928922
+partly-cloudy-day,0.59,el Besòs i el Maresme,3.6817417707499134
+partly-cloudy-day,0.19,el Baix Guinardó,5.635063996021893
+clear-day,0.87,els Indians,1.9593263287842508
+partly-cloudy-day,0.42,la Trinitat Nova,2.776251457612917
+partly-cloudy-day,0.83,la Font d'en Fargues,3.064723017926093
+partly-cloudy-day,0.93,Sant Martí de Provençals,3.086947638151914
+partly-cloudy-day,0.5,el Turó de la Peira,2.8014089869615253
+partly-cloudy-day,0.71,la Ribera,3.461038794788002
+rain,0.02,la Marina de Port,5.508011397652817
+rain,0.0,la Torre Llobeta,5.494591367940653
+rain,0.57,la Trinitat Nova,8.178390880050248
+rain,0.03,les Roquetes,2.9059423081605957
+partly-cloudy-day,0.9,la Barceloneta,4.749856087402492
+partly-cloudy-day,0.67,Sants,3.0173949768035984
+clear-day,0.45,les Tres Torres,1.956670178008052
+rain,0.28,la Ribera,5.215016739207306
+partly-cloudy-day,0.5,la Verneda i la Pau,3.8001547080293734
+partly-cloudy-day,0.15,el Carmel,3.1471499912687473
+partly-cloudy-day,0.75,Sarrià,4.179959907475801
+partly-cloudy-day,0.71,la Torre Llobeta,3.5999250578246804
+partly-cloudy-day,0.68,Can Baró,3.735269848116234
+partly-cloudy-day,0.59,Pedralbes,4.737536980653827
+rain,0.28,la Sagrada Família,5.191872441840022
+partly-cloudy-day,0.33,els Indians,3.1517271866725403
+rain,0.07,l'Antiga Esquerra de l'Eixample,2.479533650590447
+rain,0.03,la Trinitat Nova,2.906470085938374
+clear-day,0.9,la Sagrera,1.531911170599028
+partly-cloudy-day,0.21,el Fort Pienc,3.9926557510108065
+partly-cloudy-day,0.04,la Sagrera,3.4113403591953877
+clear-day,0.87,Hostafrancs,2.227814177034956
+partly-cloudy-day,0.43,el Camp de l'Arpa del Clot,3.3484115119009394
+partly-cloudy-day,0.73,el Raval,3.4948426249054902
+partly-cloudy-day,0.75,Sarrià,3.1916885778137156
+rain,0.31,el Guinardó,4.878761134946264
+partly-cloudy-day,0.75,el Besòs i el Maresme,3.809787387808109
+partly-cloudy-day,0.97,la Marina de Port,4.900715649525739
+partly-cloudy-day,0.65,Sant Andreu de Palomar,5.328940936105716
+partly-cloudy-day,0.65,el Camp de l'Arpa del Clot,5.021167364401522
+partly-cloudy-day,0.63,Sant Gervasi,3.6546478102217717
+partly-cloudy-day,0.9,la Bordeta,4.408446893198819
+partly-cloudy-day,0.73,el Camp de l'Arpa del Clot,3.1335245566048364
+partly-cloudy-day,0.52,Sarrià,4.7195610499452405
+partly-cloudy-day,0.59,la Trinitat Nova,4.670867049334581
+partly-cloudy-day,0.12,la Vila de Gràcia,3.2823215006309705
+partly-cloudy-day,0.65,el Bon Pastor,5.328114855364411
+partly-cloudy-day,0.29,la Marina del Prat Vermell,4.117660606482369
+partly-cloudy-day,0.83,UNKNOWN,2.99130195463493
+partly-cloudy-day,0.69,Provençals del Poblenou,3.187356129498553
+partly-cloudy-day,0.25,la Nova Esquerra de l'Eixample,5.604167152096072
+rain,0.7,Sant Gervasi,3.4606774657429322
+clear-day,0.85,la Trinitat Nova,2.444394958905413
+partly-cloudy-day,0.38,el Bon Pastor,2.904945910977016
+partly-cloudy-day,0.92,el Clot,2.7428114569817708
+clear-day,0.87,la Guineueta,1.889564004323354
+partly-cloudy-day,0.71,la Dreta de l'Eixample,3.728836844027087
+rain,0.84,la Font d'en Fargues,4.538086042912548
+partly-cloudy-day,0.59,la Sagrada Família,4.89580399237867
+partly-cloudy-day,0.56,Sant Genís dels Agudells,3.495262092432117
+partly-cloudy-day,0.9,Sarrià,4.644157142653603
+partly-cloudy-day,0.1,el Turó de la Peira,4.102480004959681
+rain,0.6,els Indians,3.525916667384949
+clear-day,0.45,el Baix Guinardó,2.208599767841694
+partly-cloudy-day,0.9,Pedralbes,4.615982769346201
+clear-day,0.87,la Vila Olímpica del Poblenou,2.124558789121813
+clear-day,0.85,la Font de la Guatlla,2.7469332053848574
+rain,0.8,el Poblenou,3.6649078597644205
+partly-cloudy-day,0.17,la Dreta de l'Eixample,3.873485118188667
+partly-cloudy-day,0.73,la Dreta de l'Eixample,3.4517170188546786
+rain,0.53,el Turó de la Peira,4.60024064661434
+rain,0.94,el Raval,5.023226476120465
+rain,0.94,Sant Martí de Provençals,5.058896706922275
+partly-cloudy-day,0.25,el Camp de l'Arpa del Clot,2.712147208218658
+rain,0.07,Sants-Badal,2.419772635805721
+partly-cloudy-day,0.5,Sarrià,3.8788263206005404
+rain,0.7,Sarrià,3.40972782354179
+rain,0.31,Sarrià,4.924897845002409
+clear-day,0.45,el Turó de la Peira,2.160838993340109
+rain,0.02,la Clota,5.150329762374505
+rain,0.84,les Roquetes,4.590136063477798
+partly-cloudy-day,0.71,Sants,3.5572835982794664
+rain,0.26,la Marina de Port,4.31002361282292
+clear-day,0.87,Sant Antoni,2.3821397098209585
+partly-cloudy-day,0.25,el Raval,3.108598821121884
+rain,0.28,el Bon Pastor,5.135834416250093
+partly-cloudy-day,0.93,el Besòs i el Maresme,2.7977158971565563
+clear-day,0.09,el Turó de la Peira,2.5515120045602693
+rain,0.0,Montbau,5.372607171231822
+rain,0.33,la Trinitat Nova,6.116310960248248
+partly-cloudy-day,0.0,Pedralbes,5.34530564213214
+partly-cloudy-day,0.63,el Camp de l'Arpa del Clot,3.6275974729881644
+clear-day,0.9,Can Baró,1.547986439416232
+rain,0.94,la Vila de Gràcia,4.743985922176334
+rain,0.8,la Nova Esquerra de l'Eixample,5.81099602587277
+rain,0.03,Sant Gervasi,3.0989433859257383
+partly-cloudy-day,0.29,el Bon Pastor,3.7318541548694664
+clear-day,0.87,Sant Gervasi,2.2007805675396863
+clear-day,0.87,la Marina de Port,2.619010193252125
+partly-cloudy-day,0.0,Montbau,5.134608002066771
+partly-cloudy-day,0.75,Sant Gervasi,3.991782529157263
+partly-cloudy-day,0.04,els Penitents,3.6541768565628816
+partly-cloudy-day,0.15,el Bon Pastor,3.099440629893667
+partly-cloudy-day,0.9,la Trinitat Nova,4.872133553198412
+partly-cloudy-day,0.29,Sant Antoni,3.808922285489953
+rain,0.6,la Marina del Prat Vermell,4.169932186766152
+partly-cloudy-day,0.39,la Maternitat i Sant Ramon,3.305819815787636
+partly-cloudy-day,0.5,la Trinitat Nova,3.7137492565482333
+rain,0.26,Provençals del Poblenou,3.6747583671073265
+rain,0.97,Pedralbes,5.622178876161158
+partly-cloudy-day,0.19,el Bon Pastor,5.587510030932068
+partly-cloudy-day,0.71,la Sagrera,3.482075595459089
+rain,0.07,Sant Genís dels Agudells,2.2800374847997897
+partly-cloudy-day,0.19,la Vila Olímpica del Poblenou,5.806290878366404
+partly-cloudy-day,0.56,la Barceloneta,3.548816756846439
+partly-cloudy-day,0.69,l'Antiga Esquerra de l'Eixample,3.3652325474734655
+rain,0.26,Montbau,3.548534361843141
+partly-cloudy-day,0.21,el Camp d'en Grassot i Gràcia Nova,3.9615381035294632
+rain,0.6,la Prosperitat,3.752094043737042
+partly-cloudy-day,0.95,el Bon Pastor,4.923204546468812
+rain,0.26,Sarrià,3.949210253676163
+partly-cloudy-day,0.25,la Dreta de l'Eixample,3.0450724134678664
+clear-day,0.82,la Vila de Gràcia,2.172468018474225
+rain,0.53,les Roquetes,4.71520002855467
+partly-cloudy-day,0.9,el Camp d'en Grassot i Gràcia Nova,4.807598772961635
+partly-cloudy-day,0.28,el Besòs i el Maresme,3.5857116777770828
+partly-cloudy-day,0.75,el Putxet,3.088312479003486
+partly-cloudy-day,0.52,la Trinitat Nova,4.505908810982326
+rain,0.26,el Camp de l'Arpa del Clot,3.6802223456019507
+clear-day,0.85,el Clot,2.262022041026645
+partly-cloudy-day,0.33,el Fort Pienc,3.2350237998766205
+rain,0.88,el Camp de l'Arpa del Clot,3.8451921089255308
+partly-cloudy-day,0.5,Can Baró,2.838711138123241
+partly-cloudy-day,0.69,la Sagrada Família,3.4779303963117494
+rain,0.39,el Besòs i el Maresme,5.080941171107714
+rain,0.8,la Trinitat Nova,3.7935866909976017
+partly-cloudy-day,0.9,el Besòs i el Maresme,2.774598632013425
+rain,0.38,la Trinitat Nova,7.521556391394929
+rain,0.0,el Camp d'en Grassot i Gràcia Nova,5.659472659320638
+partly-cloudy-day,0.95,el Carmel,4.995588829106595
+partly-cloudy-day,0.38,el Parc i la Llacuna del Poblenou,2.7224175968129924
+partly-cloudy-day,0.35,la Bordeta,3.417055893324931
+partly-cloudy-day,0.93,la Nova Esquerra de l'Eixample,3.140152934107242
+rain,0.75,el Guinardó,4.4405300187954495
+rain,0.31,el Poblenou,4.632562519763071
+rain,0.0,Sant Genís dels Agudells,5.67125715004249
+rain,0.05,la Vall d'Hebron,2.7872049484714774
+rain,0.88,els Penitents,4.107965816914986
+partly-cloudy-day,0.25,els Indians,2.6643864337170733
+rain,0.28,el Fort Pienc,5.503262701476754
+rain,0.39,la Trinitat Nova,6.885435673297358
+partly-cloudy-day,0.67,el Bon Pastor,2.9141835677936756
+rain,0.9,el Besòs i el Maresme,4.390465448624495
+rain,0.75,el Bon Pastor,4.604642510898758
+partly-cloudy-day,0.69,UNKNOWN,3.2262076158898685
+partly-cloudy-day,0.12,el Clot,3.290921153076469
+rain,0.82,la Trinitat Nova,7.021670597567424
+rain,0.88,el Bon Pastor,4.031008003626973
+rain,0.88,el Putxet,3.9886542111722125
+partly-cloudy-day,0.52,Hostafrancs,4.7606041479515815
+partly-cloudy-day,0.75,Hostafrancs,3.0289920501441214
+clear-day,0.09,la Font de la Guatlla,2.5989822579526525
+rain,0.53,la Teixonera,4.484189930392544
+rain,0.6,el Gòtic,3.651622834463804
+partly-cloudy-day,0.92,els Penitents,2.904589601083594
+partly-cloudy-day,0.9,Provençals del Poblenou,4.521866484010975
+rain,0.02,Pedralbes,5.199795596080816
+partly-cloudy-day,0.42,el Clot,2.5836769820268075
+rain,0.05,Sant Antoni,2.8539956532372575
+partly-cloudy-day,0.1,Hostafrancs,4.3386860812523445
+partly-cloudy-day,0.43,la Barceloneta,3.6947269343316753
+partly-cloudy-day,0.43,Sant Martí de Provençals,3.643362724626644
+partly-cloudy-day,0.92,el Gòtic,2.7613135548963843
+partly-cloudy-day,0.04,Provençals del Poblenou,3.1438005324945677
+clear-day,0.75,Pedralbes,2.1733977267655944
+partly-cloudy-day,0.65,la Sagrada Família,5.027093645543628
+rain,0.53,el Carmel,4.622893893610124
+partly-cloudy-day,0.42,el Bon Pastor,2.8855242725888934
+rain,0.03,la Font de la Guatlla,3.3061847233276125
+rain,0.84,Pedralbes,4.163613019864277
+partly-cloudy-day,0.63,la Teixonera,3.542844182989635
+rain,0.02,Sant Antoni,5.35065745554803
+partly-cloudy-day,0.63,la Marina de Port,4.206338292072718
+cloudy,0.19,la Trinitat Nova,6.65327540738684
+partly-cloudy-day,0.75,Sant Andreu de Palomar,2.529075788924344
+partly-cloudy-day,0.39,la Vila Olímpica del Poblenou,3.5267345843929476
+rain,0.88,la Trinitat Nova,3.9839163411846314
+partly-cloudy-day,0.74,Galvany,3.980201875046879
+partly-cloudy-day,0.63,la Ribera,3.755218146499239
+partly-cloudy-day,0.97,la Trinitat Nova,4.53811302845423
+partly-cloudy-day,0.73,la Trinitat Nova,3.342431366640679
+rain,0.05,la Verneda i la Pau,2.65740567563825
+rain,0.6,els Penitents,3.9108115876915126
+partly-cloudy-day,0.95,Sants,4.767469503905867
+partly-cloudy-day,0.21,la Maternitat i Sant Ramon,3.7454653127866875
+partly-cloudy-day,0.93,el Fort Pienc,3.188705103961964
+partly-cloudy-day,0.35,la Maternitat i Sant Ramon,3.420555345369628
+partly-cloudy-day,0.59,la Clota,4.454329226641779
+partly-cloudy-day,0.56,el Coll,3.232099211643806
+rain,0.53,Pedralbes,4.407963869197941
+partly-cloudy-day,0.97,Sant Antoni,4.816427391477238
+partly-cloudy-day,0.95,Galvany,5.008578264702624
+partly-cloudy-day,0.25,Montbau,2.6735539443656107
+partly-cloudy-day,0.56,les Tres Torres,3.4436342571740814
+partly-cloudy-day,0.57,les Tres Torres,3.6717524984748273
+rain,0.8,la Trinitat Nova,6.6556442206818005
+partly-cloudy-day,0.14,el Camp de l'Arpa del Clot,3.964973686723585
+rain,0.87,el Camp de l'Arpa del Clot,2.4253259880769824
+partly-cloudy-day,0.35,la Font d'en Fargues,3.710742936323166
+partly-cloudy-day,0.95,Sarrià,5.498507138844349
+partly-cloudy-day,0.92,la Marina de Port,3.1822846927770576
+partly-cloudy-day,0.74,el Raval,4.360061774056369
+rain,0.8,la Marina del Prat Vermell,4.2220152086828335
+partly-cloudy-day,0.39,Sant Genís dels Agudells,3.4814917849094984
+partly-cloudy-day,0.72,Sant Martí de Provençals,3.673792111516058
+partly-cloudy-day,0.25,la Trinitat Nova,5.448774043768835
+partly-cloudy-day,0.72,els Penitents,3.813591710714454
+partly-cloudy-day,0.73,la Trinitat Nova,3.315639251945339
+partly-cloudy-day,0.75,la Font de la Guatlla,2.6267647875809206
+cloudy,0.88,la Trinitat Nova,6.350092103826903
+partly-cloudy-day,0.28,la Trinitat Nova,5.2970429224392745
+partly-cloudy-day,0.19,les Tres Torres,5.366749501706274
+clear-day,0.9,el Gòtic,1.4546397742897512
+partly-cloudy-day,0.5,la Guineueta,3.4301341610302107
+rain,0.02,el Guinardó,5.312705800737145
+partly-cloudy-day,0.63,la Trinitat Nova,5.572204643731319
+partly-cloudy-day,0.56,Sant Gervasi,3.5568485510888994
+clear-day,0.09,el Coll,2.3158644929555923
+partly-cloudy-day,0.75,l'Antiga Esquerra de l'Eixample,4.189336494247088
+rain,0.8,el Baix Guinardó,3.9171984983893404
+partly-cloudy-day,0.43,el Bon Pastor,3.607557338662282
+partly-cloudy-day,0.74,la Trinitat Nova,4.051597246434817
+partly-cloudy-day,0.63,la Clota,3.5267689141724308
+rain,0.7,la Guineueta,3.064359205490127
+rain,0.7,les Tres Torres,3.2103869440096484
+rain,0.02,Sant Martí de Provençals,5.159902912164301
+partly-cloudy-day,0.67,Sant Antoni,3.26510186010425
+partly-cloudy-day,0.17,la Trinitat Nova,3.643396561617271
+partly-cloudy-day,0.71,Sant Andreu de Palomar,3.58379837588097
+rain,0.0,Sant Martí de Provençals,5.375867764726231
+partly-cloudy-day,0.14,la Trinitat Nova,4.095157471061754
+rain,0.53,el Bon Pastor,4.724773178344467
+partly-cloudy-day,0.73,el Fort Pienc,3.4358999725757404
+partly-cloudy-day,0.97,Sarrià,4.648418733583273
+partly-cloudy-day,0.92,Hostafrancs,2.9587646937331984
+partly-cloudy-day,0.93,el Clot,2.8188913663745616
+rain,0.03,la Vall d'Hebron,2.956891950361738
+partly-cloudy-day,0.63,la Bordeta,3.863470908560172
+rain,0.0,Can Baró,5.502070653299076
+partly-cloudy-day,0.75,la Verneda i la Pau,4.093970341529172
+partly-cloudy-day,0.92,la Maternitat i Sant Ramon,2.7878474470534584
+partly-cloudy-day,0.75,el Raval,4.225812564667499
+partly-cloudy-day,0.75,el Baix Guinardó,3.087537811388686
+rain,0.88,la Prosperitat,3.889144404744621
+cloudy,0.62,Montbau,6.322904439232776
+partly-cloudy-day,0.43,el Carmel,3.633213736951546
+clear-day,0.9,la Vila de Gràcia,1.36880218101165
+rain,0.05,l'Antiga Esquerra de l'Eixample,2.819952610974343
+rain,0.02,el Camp de l'Arpa del Clot,5.169676304733564
+partly-cloudy-day,0.17,Galvany,3.873485118188667
+partly-cloudy-day,0.5,la Prosperitat,2.7906921410833894
+partly-cloudy-day,0.29,la Prosperitat,3.581854154869466
+partly-cloudy-day,0.5,els Penitents,3.7180580615958982
+partly-cloudy-day,0.33,el Bon Pastor,3.3873746982772177
+partly-cloudy-day,0.25,el Fort Pienc,3.039713990528798
+partly-cloudy-day,0.97,la Trinitat Nova,4.527654405114358
+partly-cloudy-day,0.6,Sarrià,5.324408641008441
+clear-day,0.9,el Turó de la Peira,1.4728656920162668
+partly-cloudy-day,0.25,el Bon Pastor,2.637852541559999
+partly-cloudy-day,0.52,el Besòs i el Maresme,2.8543440244376175
+rain,0.84,Sant Martí de Provençals,4.437288352096402
+partly-cloudy-day,0.1,la Barceloneta,4.482271763104326
+cloudy,0.62,el Guinardó,6.484447365852216
+partly-cloudy-day,0.42,Sant Andreu de Palomar,2.819221667378473
+rain,0.84,la Ribera,4.530965508183062
+cloudy,0.62,la Trinitat Nova,6.6113615126133345
+rain,0.0,Can Peguera,5.328628685680899
+partly-cloudy-day,0.0,Sarrià,5.323562314711095
+partly-cloudy-day,0.73,la Vila Olímpica del Poblenou,3.296616818453877
+partly-cloudy-day,0.52,Provençals del Poblenou,4.307614863665872
+clear-day,0.87,Pedralbes,2.1634616886396336
+rain,0.7,la Font d'en Fargues,3.3936115146739807
+partly-cloudy-day,0.39,el Clot,3.188657765616432
+rain,0.53,Montbau,4.467019025594523
+clear-day,0.09,Sants-Badal,3.0436238350135847
+rain,0.88,Sants,4.034265706187627
+partly-cloudy-day,0.71,el Guinardó,3.4927924413372256
+rain,0.75,Can Baró,4.435616019111494
+rain,0.7,Sant Martí de Provençals,3.451763845047166
+partly-cloudy-day,0.56,el Baix Guinardó,3.4918140535139264
+partly-cloudy-day,0.56,Pedralbes,3.5786662966923335
+rain,0.31,Diagonal Mar i el Front Marítim del Poblenou,4.906731540787821
+partly-cloudy-day,0.1,Sant Genís dels Agudells,4.349900257651444
+rain,0.68,Sarrià,6.62250182543829
+rain,0.31,la Clota,4.663443313797228
+cloudy,0.62,la Vall d'Hebron,6.628004639633578
+partly-cloudy-day,0.75,la Trinitat Nova,3.1527331082636514
+partly-cloudy-day,0.36,Sants,5.107751572832486
+partly-cloudy-day,0.97,la Trinitat Nova,4.517195781774489
+rain,0.0,la Dreta de l'Eixample,5.543337467743524
+partly-cloudy-day,0.74,Sant Andreu de Palomar,4.094206407409096
+rain,0.8,el Besòs i el Maresme,4.0434093245366105
+partly-cloudy-day,0.72,Pedralbes,3.3391235988635124
+rain,0.88,la Font de la Guatlla,4.344724329527496
+partly-cloudy-day,0.5,la Sagrada Família,3.5299415100251625
+partly-cloudy-day,0.97,l'Antiga Esquerra de l'Eixample,4.758724438712315
+partly-cloudy-day,0.83,la Maternitat i Sant Ramon,2.8579450816551724
+rain,0.87,Can Peguera,2.351283461635063
+rain,0.0,la Prosperitat,5.459826222908241
+rain,0.84,Sarrià,5.325356702593742
+partly-cloudy-day,0.74,les Tres Torres,3.9855602979859475
+rain,0.87,la Trinitat Nova,6.424831299646122
+partly-cloudy-day,0.9,el Clot,4.822124706549241
+rain,0.31,la Prosperitat,4.859677060705612
+partly-cloudy-day,0.68,la Maternitat i Sant Ramon,3.787339427665484
+rain,0.03,el Bon Pastor,2.9179258207053986
+rain,0.8,Provençals del Poblenou,3.617092942833785
+partly-cloudy-day,0.68,UNKNOWN,3.910754122381905
+partly-cloudy-day,0.93,el Bon Pastor,2.9741636907989557
+rain,0.8,la Trinitat Nova,4.521188354145273
+rain,0.21,el Besòs i el Maresme,3.1921289071356176
+partly-cloudy-day,0.67,UNKNOWN,3.1089687695503825
+partly-cloudy-day,0.9,la Vall d'Hebron,4.8594665905051775
+rain,0.03,el Putxet,2.933443006313467
+clear-day,0.9,el Carmel,1.4946090194373116
+rain,0.8,la Sagrera,5.748941797985771
+partly-cloudy-day,0.14,Sant Gervasi,4.302017615347035
+rain,0.95,Sarrià,5.68654954953682
+partly-cloudy-day,0.65,la Ribera,5.013961650900367
+rain,0.67,el Besòs i el Maresme,4.2220352719776475
+partly-cloudy-day,0.12,Pedralbes,3.2820235452984825
+clear-day,0.82,el Raval,2.247279130209417
+clear-day,0.45,la Trinitat Nova,2.1342536880565297
+partly-cloudy-day,0.56,Sants,3.5435327520897606
+rain,0.75,l'Antiga Esquerra de l'Eixample,4.484177035220921
+clear-day,0.9,la Torre Llobeta,1.488992373959977
+partly-cloudy-day,0.69,la Teixonera,3.2630844678957778
+partly-cloudy-day,0.59,Hostafrancs,4.80569855675862
+rain,0.8,la Trinitat Nova,6.927637187301334
+rain,0.84,la Trinitat Nova,4.586230507922243
+partly-cloudy-day,0.56,Hostafrancs,3.5384325516889588
+partly-cloudy-day,0.75,la Marina del Prat Vermell,2.658759928930074
+partly-cloudy-day,0.1,Sant Andreu de Palomar,4.097121582020613
+rain,0.0,el Guinardó,5.640741086591774
+clear-day,0.82,Can Peguera,2.0558224133795533
+partly-cloudy-day,0.69,el Coll,3.2738013137739137
+partly-cloudy-day,0.67,Sant Andreu de Palomar,2.9514343058288857
+rain,0.28,el Raval,5.537076733295016
+clear-day,0.87,Pedralbes,2.0564088933493054
+partly-cloudy-day,0.92,la Vila de Gràcia,2.6721833189853474
+partly-cloudy-day,0.43,Sants,3.435683933823343
+clear-day,0.82,els Penitents,2.269658456698343
+rain,0.8,la Trinitat Nova,5.853584839548066
+partly-cloudy-day,0.73,la Verneda i la Pau,3.4013740189704285
+partly-cloudy-day,0.67,Sant Genís dels Agudells,3.008620813517275
+clear-day,0.09,la Dreta de l'Eixample,2.7539437898065358
+partly-cloudy-day,0.69,la Ribera,3.1999319462710605
+rain,0.87,el Turó de la Peira,2.6513305730622188
+partly-cloudy-day,0.12,el Camp de l'Arpa del Clot,3.290921153076469
+partly-cloudy-day,0.95,el Parc i la Llacuna del Poblenou,4.656801593079807
+clear-day,0.9,el Bon Pastor,1.5289678964250848
+rain,0.84,la Trinitat Nova,4.5475896682724395
+partly-cloudy-day,0.73,la Vila de Gràcia,3.124924904159338
+partly-cloudy-day,0.42,Sant Antoni,3.021961931383774
+partly-cloudy-day,0.14,la Clota,3.885320597125858
+rain,0.75,la Trinitat Nova,4.56235209323989
+rain,0.46,el Fort Pienc,3.7397607370743606
+partly-cloudy-day,0.72,la Guineueta,3.3469485836942114
+partly-cloudy-day,0.93,Can Peguera,2.7115172550871773
+partly-cloudy-day,0.12,Can Baró,3.5799460846600666
+rain,0.8,la Vila de Gràcia,3.6650134153199763
+partly-cloudy-day,0.43,el Clot,3.3484115119009394
+partly-cloudy-day,0.21,la Trinitat Nova,3.754380003911696
+partly-cloudy-day,0.75,el Parc i la Llacuna del Poblenou,2.9539227158706627
+rain,0.43,Sarrià,4.749516087230575
+rain,0.8,la Torre Llobeta,3.842023608560325
+partly-cloudy-day,0.56,la Verneda i la Pau,3.4603867703678106
+rain,0.53,el Raval,4.592102876073552

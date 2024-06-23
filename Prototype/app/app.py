@@ -32,14 +32,14 @@ def get_mlflow_best_model():
 # Load the data and models
 s3_data_path = "s3://parkpulse-project/checkpoint5_neighbourhood_district_data.csv"
 data_path = "data/checkpoint5_neighbourhood_district_data.csv"
-# model_path = "models/model.pkl"
+model_path = "models/model.pkl"
 scaler_path = "models/scaler.pkl"
 # preprocessor_path = "models/preprocessor.pkl"
 weather_model_path = "models/weather_prediction_model.pkl"
 weather_model_features_path = "models/weather_prediction_model_with_features.pkl"
 
 data = pd.read_csv(data_path)
-# model = joblib.load(model_path)
+model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
 # preprocessor = joblib.load(preprocessor_path)
 weather_model = joblib.load(weather_model_path)

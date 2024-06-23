@@ -10,7 +10,7 @@ Merge and analysis of the new parking data.
 
 #### 4) file "LAST_MERGING_MODEL.ipynb":  
 New merging using the new traffic and parking data (year 2024). So combining the data of parking, weather and traffic, we predict the number of parking spots available.
-Mergign dataset "df_traffic_parking_weather_weather.csv" in the folder "data".
+Merging dataset "df_traffic_parking_weather_weather.csv" in the folder "data".
 
 
 ### 5) folder "traffic" with the files:

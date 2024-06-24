@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ParkPulse - Find Parking Spots Easily</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">ParkPulse</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- Add more nav items here if needed -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Find a Parking Spot</h2>
+                <form id="selection-form">
+                    <div class="form-group">
+                        <label for="district">Select District:</label>
+                        <select id="district" name="district" class="form-control">
+                            <option value="">Select</option>
+                            {% for district in districts %}
+                            <option value="{{ district }}">{{ district }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="neighbourhood">Select Neighbourhood:</label>
+                        <select id="neighbourhood" name="neighbourhood" class="form-control">
+                            <option value="">Select</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Show Free Map</button>
+                </form>
+                <button id="premium-button" class="btn btn-success btn-block mt-2">Show Premium Map</button>
+
+                <div id="weather" class="mt-4">
+                    <h2>Current Weather</h2>
+                    <p><i class="fas fa-thermometer-half"></i> <b>Temperature:</b> <span id="temp"></span> °C</p>
+                    <p><i class="fas fa-tint"></i> <b>Humidity:</b> <span id="humidity"></span>%</p>
+                    <p><i class="fas fa-cloud"></i> <b>Cloud Cover:</b> <span id="cloud_cover"></span>%</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $('#district').change(function() {
+                var district = $(this).val();
+                if (district) {
+                    $.getJSON(`/get_neighbourhoods/${district}`, function(data) {
+                        var $neighbourhood = $('#neighbourhood');
+                        $neighbourhood.empty();
+                        $neighbourhood.append('<option value="">Select</option>');
+                        $.each(data, function(index, value) {
+                            $neighbourhood.append('<option value="'+ value +'">'+ value +'</option>');
+                        });
+                    });
+                } else {
+                    $('#neighbourhood').empty();
+                    $('#neighbourhood').append('<option value="">Select</option>');
+                }
+            });
+            
+            $('#selection-form').submit(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '/show_map',
+                    type: 'POST',
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#map').html(response);
+                    }
+                });
+
+                $.ajax({
+                    url: '/get_weather_data',
+                    type: 'POST',
+                    success: function(response) {
+                        $('#temp').text(response.temp);
+                        $('#humidity').text(response.humidity);
+                        $('#cloud_cover').text(response.cloud_cover);
+                    }
+                });
+            });
+
+            $('#premium-button').click(function(event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '/show_premium_map',
+                    type: 'POST',
+                    data: $('#selection-form').serialize(),
+                    success: function(response) {
+                        $('#map').html(response);
+                    }
+                });
+
+                $.ajax({
+                    url: '/get_weather_data',
+                    type: 'POST',
+                    success: function(response) {
+                        $('#temp').text(response.temp);
+                        $('#humidity').text(response.humidity);
+                        $('#cloud_cover').text(response.cloud_cover);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

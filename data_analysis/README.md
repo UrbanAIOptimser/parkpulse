@@ -26,7 +26,7 @@ Analysis of the air quality data.
 Analysis of the street constructions data.
 
 #### - file "Parking Analysis.ipynb":
-a
+Analysis of the first dataset related to parking from Open Data Barcelona "Infraestructures_Inventari_Reserves.csv".
 
 #### - file "Initial - Blended Analysis.ipynb":
-a
+First predictive model: combining the old data relating to parking, traffic and weather with the aim of predicting the number of available parking spaces.

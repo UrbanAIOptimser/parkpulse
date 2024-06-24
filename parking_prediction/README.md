@@ -9,6 +9,7 @@ Merging dataset "df_traffic_parking_weather_weather.csv" in the folder "data".
 
  
 #### - file "prob_model.ipynb":
-
+Analyze and predict urban parking occupancy using statistical models and machine learning algorithms.   
+We will use a dataset containing meteorological and parking occupancy data in various neighborhoods of Barcelona. Our approach involves the use of preprocessing techniques to prepare the data, followed by building a predictive model based on Random Forest. Furthermore, we will calculate future employment probabilities and analyze time-dependent model properties.
 
 

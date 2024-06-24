@@ -1,0 +1,20 @@
+
+Pacaba Analysis Notebook Documentation
+---------------------------------------
+
+Introduction
+------------
+This Jupyter notebook, titled 'pacaba_analysis', focuses on the geospatial analysis of vehicle distributions. It utilizes GeoDataFrames to represent and analyze the spatial footprint of vehicles captured in different images.
+
+Data Description
+----------------
+The notebook employs two GeoDataFrames: gdf_image1 and gdf_image2. Each of these contains a 'geometry' column, which holds multipolygon geometries for each detected vehicle. These geometries represent the vehicles' spatial footprints on the Earth's surface.
+
+Methodology
+-----------
+The methodology involves analyzing the vehicle distributions in two different images. This analysis is primarily visual, with each vehicle represented as a polygon in the corresponding GeoDataFrame. The vehicles in Image 1 are plotted in blue, and those in Image 2 are plotted in red.
+
+Visualizations
+--------------
+The notebook includes plots that visualize the locations of the vehicles. These plots show the density and arrangement of parked cars, providing insights into aspects such as parking space allocation or traffic flow analysis.
+
